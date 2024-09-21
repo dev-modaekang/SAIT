@@ -1,0 +1,47 @@
+====================================================================================================
+
+[ubuntu]
+
+user@ubuntu:~/git/modae-k/python/m12$ sudo python m12sniff1.py 
+('E\x00\x00Tb0@\x00@\x01\xb1\x08\n\xbb\x88\xfd\n\xbb\x88\xfd\x08\x00R5$\xfd\x00\x01\x15s\xa7\\\x00\x00\x00\x00\xfc)
+\t\x00\x00\x00\x00\x00\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f 
+!"#$%&\'()*+,-./01234567', ('10.187.136.253', 0))
+
+====================================================================================================
+
+[windows]
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Windows\system32>cd C:\Users\user\Desktop\python\m12
+
+*ping to website which is impossible to ping
+C:\Users\user\Desktop\python\m12>python m12sniff1.py
+('E\x00\x00<\x05\xa9\x00\x00\x80\x11\x00\x00\n\x00\x02\x0f\n\x00\x02\x03\xeb\x19
+\x005\x00(\x18Kf\xda\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03www\x06google\x0
+3com\x00\x00\x01\x00\x01', ('10.0.2.15', 0))
+
+*ping to website which is possible to ping
+C:\Users\user\Desktop\python\m12>python m12sniff1.py
+('E\x00\x00<\x05\xae\x00\x00\x80\x01\x00\x00\n\x00\x02\x0f\n\x00\x02\x0f\x08\x00
+MT\x00\x01\x00\x07abcdefghijklmnopqrstuvwabcdefghi', ('10.0.2.15', 0))
+
+====================================================================================================
+
+[differences between Windows and Linux]
+
+Windows will allow us to sniff all incoming packets regardless of protocol.
+On the other hand, Linux forces us to specify that we are sniffing ICMP
+(code)
+if os.name == "nt":
+	socket_protocol = socket.IPPROTO_IP
+else:
+	socket_protocol = socket.IPPROTO_ICMP
+
+if we're using Windows, we need to send an IOCTL to set up promiscuous mode
+(code)
+if os.name == "nt":
+    sniffer.ioctl(socket.SIO_RCVALL, socket.RCVALL_ON)
+
+====================================================================================================

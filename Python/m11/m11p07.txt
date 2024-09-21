@@ -1,0 +1,36 @@
+user@ubuntu:~/git/modae-k/python/m11$ sudo python m11proxy.py 127.0.0.1 80 itss.biomea.com 80 True
+[sudo] password for user: 
+[*] Listening on 127.0.0.1:80
+[==>] Received incoming connection from 127.0.0.1:55316
+
+[==>] Received 58 bytes from localhost.
+0000   47 45 54 20 2F 63 67 69 2D 62 69 6E 2F 65 63 68    GET /cgi-bin/ech
+0010   6F 2E 63 67 69 20 48 54 54 50 53 2F 31 2E 31 0D    o.cgi HTTPS/1.1.
+0020   0A 48 6F 73 74 3A 20 69 74 73 73 2E 62 69 6F 6D    .Host: itss.biom
+0030   65 61 2E 63 6F 6D 0D 0A 0D 0A                      ea.com....
+
+[==>] Sent to remote.
+[<==] Received 332 bytes from remote.
+0000   48 54 54 50 2F 31 2E 31 20 32 30 30 20 4F 4B 0D    HTTP/1.1 200 OK.
+0010   0A 44 61 74 65 3A 20 57 65 64 2C 20 30 33 20 41    .Date: Wed, 03 A
+0020   70 72 20 32 30 31 39 20 31 36 3A 35 36 3A 32 36    pr 2019 16:56:26
+0030   20 47 4D 54 0D 0A 53 65 72 76 65 72 3A 20 41 70     GMT..Server: Ap
+0040   61 63 68 65 2F 32 2E 32 2E 31 37 20 28 4C 69 6E    ache/2.2.17 (Lin
+0050   75 78 2F 53 55 53 45 29 0D 0A 43 61 63 68 65 2D    ux/SUSE)..Cache-
+0060   43 6F 6E 74 72 6F 6C 3A 20 6E 6F 2D 73 74 6F 72    Control: no-stor
+0070   65 2C 20 6E 6F 2D 63 61 63 68 65 0D 0A 43 6F 6E    e, no-cache..Con
+0080   6E 65 63 74 69 6F 6E 3A 20 63 6C 6F 73 65 0D 0A    nection: close..
+0090   43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 74 65    Content-Type: te
+00A0   78 74 2F 68 74 6D 6C 0D 0A 0D 0A 0A 3C 68 74 6D    xt/html.....<htm
+00B0   6C 3E 0A 3C 68 65 61 64 3E 0A 3C 6D 65 74 61 20    l>.<head>.<meta 
+00C0   63 68 61 72 73 65 74 3D 22 75 74 66 2D 38 22 3E    charset="utf-8">
+00D0   0A 3C 74 69 74 6C 65 3E 49 54 53 43 32 30 33 20    .<title>ITSC203 
+00E0   65 63 68 6F 20 70 61 67 65 3C 2F 74 69 74 6C 65    echo page</title
+00F0   3E 0A 3C 2F 68 65 61 64 3E 0A 3C 62 6F 64 79 3E    >.</head>.<body>
+0100   0A 0A 3C 62 72 3E 32 30 31 39 2D 30 34 2D 30 33    ..<br>2019-04-03
+0110   20 31 30 3A 35 36 3A 32 36 0A 3C 62 72 3E 31 34     10:56:26.<br>14
+0120   32 2E 31 31 30 2E 32 32 37 2E 31 38 37 0A 3C 70    2.110.227.187.<p
+0130   3E 70 61 72 61 6D 73 3A 3C 2F 70 3E 0A 3C 2F 62    >params:</p>.</b
+0140   6F 64 79 3E 3C 2F 68 74 6D 6C 3E 0A                ody></html>.
+[<==] Sent to localhost.
+[*] No more data. Closing connections.

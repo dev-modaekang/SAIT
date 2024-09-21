@@ -1,0 +1,136 @@
+Script started on Fri 12 Apr 2019 09:48:15 AM MDT
+
+]0;user@ubuntu: ~/python_m13[01;32muser@ubuntu[00m:[01;34m~/python_m13[00m$ another testpython m13p03.pyls[Kcd var[4Plspython m13p03.py[4Panother testpython m13p03.py
+!!! 403 => http://10.0.2.15/joomla/.htaccess
+!!! 403 => http://10.0.2.15/joomla/.htaccess.php
+!!! 403 => http://10.0.2.15/joomla/.htaccess.bak
+!!! 403 => http://10.0.2.15/joomla/.htaccess.orig
+!!! 403 => http://10.0.2.15/joomla/.htaccess.inc
+[200] => http://10.0.2.15/joomla/language/
+[200] => http://10.0.2.15/joomla/index.php
+[200] => http://10.0.2.15/joomla/cache/
+[200] => http://10.0.2.15/joomla/README.txt
+[200] => http://10.0.2.15/joomla/modules/
+[200] => http://10.0.2.15/joomla/includes/
+[200] => http://10.0.2.15/joomla/plugins/
+[200] => http://10.0.2.15/joomla/images/
+[200] => http://10.0.2.15/joomla/bin/
+[200] => http://10.0.2.15/joomla/tmp/
+ [200] => http://10.0.2.15/joomla/robots.txt
+[200] => http://10.0.2.15/joomla/index.php
+[200] => http://10.0.2.15/joomla/layouts/
+[200] => http://10.0.2.15/joomla/media/
+ [200] => http://10.0.2.15/joomla/templates/
+[200] => http://10.0.2.15/joomla/libraries/
+[200] => http://10.0.2.15/joomla/components/
+[200] => http://10.0.2.15/joomla/htaccess.txt
+!!! 403 => http://10.0.2.15/joomla/.htpasswd
+!!! 403 => http://10.0.2.15/joomla/.htpasswd.php
+!!! 403 => http://10.0.2.15/joomla/.htpasswd.bak
+ [200] => http://10.0.2.15/joomla/administrator/
+!!! 403 => http://10.0.2.15/joomla/.htpasswd.orig
+!!! 403 => http://10.0.2.15/joomla/.htpasswd.inc
+!!! 403 => http://10.0.2.15/joomla/.htaccess.svn-base
+!!! 403 => http://10.0.2.15/joomla/.htaccess.svn-base.php
+!!! 403 => http://10.0.2.15/joomla/.htaccess.svn-base.bak
+!!! 403 => http://10.0.2.15/joomla/.htaccess.svn-base.orig
+!!! 403 => http://10.0.2.15/joomla/.htaccess.svn-base.inc
+!!! 403 => http://10.0.2.15/joomla/.htaccess.dist
+!!! 403 => http://10.0.2.15/joomla/.htaccess.dist.php
+!!! 403 => http://10.0.2.15/joomla/.htaccess.dist.bak
+!!! 403 => http://10.0.2.15/joomla/.htaccess.dist.orig
+!!! 403 => http://10.0.2.15/joomla/.htaccess.dist.inc
+[200] => http://10.0.2.15/joomla//
+!!! 403 => http://10.0.2.15/joomla/.php
+!!! 403 => http://10.0.2.15/joomla/form.phps
+!!! 403 => http://10.0.2.15/joomla/.httpd.conf
+!!! 403 => http://10.0.2.15/joomla/.httpd.conf.php
+!!! 403 => http://10.0.2.15/joomla/.httpd.conf.bak
+!!! 403 => http://10.0.2.15/joomla/.httpd.conf.orig
+!!! 403 => http://10.0.2.15/joomla/.httpd.conf.inc
+!!! 403 => http://10.0.2.15/joomla/.html
+!!! 403 => http://10.0.2.15/joomla/.html.php
+!!! 403 => http://10.0.2.15/joomla/.html.bak
+!!! 403 => http://10.0.2.15/joomla/.html.orig
+!!! 403 => http://10.0.2.15/joomla/.html.inc
+!!! 403 => http://10.0.2.15/joomla/onLoadBindTimer.phps
+ !!! 403 => http://10.0.2.15/joomla/onLoadBindPeriodicalTimer.phps
+ !!! 403 => http://10.0.2.15/joomla/onLoadBind.phps
+!!! 403 => http://10.0.2.15/joomla/AjaxTest.class.phps
+!!! 403 => http://10.0.2.15/joomla/AjaxCore.class.phps
+!!! 403 => http://10.0.2.15/joomla/source.phps
+!!! 403 => http://10.0.2.15/joomla/.htaccess.txt
+!!! 403 => http://10.0.2.15/joomla/.htaccess.txt.php
+!!! 403 => http://10.0.2.15/joomla/.htaccess.txt.bak
+!!! 403 => http://10.0.2.15/joomla/.htaccess.txt.orig
+!!! 403 => http://10.0.2.15/joomla/.htaccess.txt.inc
+!!! 403 => http://10.0.2.15/joomla/.htaccess.sample
+!!! 403 => http://10.0.2.15/joomla/.htaccess.sample.php
+!!! 403 => http://10.0.2.15/joomla/.htaccess.sample.bak
+!!! 403 => http://10.0.2.15/joomla/.htaccess.sample.orig
+!!! 403 => http://10.0.2.15/joomla/.htaccess.sample.inc
+!!! 403 => http://10.0.2.15/joomla/demo.phps
+
+
+
+
+
+
+
+
+=================================================================================================
+*extra work : just point at webserver*
+]0;user@ubuntu: ~/python_m13[01;32muser@ubuntu[00m:[01;34m~/python_m13[00m$ python m13p03.py
+!!! 403 => http://10.0.2.15/.htaccess
+!!! 403 => http://10.0.2.15/.htaccess.php
+!!! 403 => http://10.0.2.15/.htaccess.bak
+!!! 403 => http://10.0.2.15/.htaccess.orig
+!!! 403 => http://10.0.2.15/.htaccess.inc
+[200] => http://10.0.2.15/index.html
+!!! 403 => http://10.0.2.15/.htpasswd
+!!! 403 => http://10.0.2.15/.htpasswd.php
+!!! 403 => http://10.0.2.15/.htpasswd.bak
+!!! 403 => http://10.0.2.15/.htpasswd.orig
+!!! 403 => http://10.0.2.15/.htpasswd.inc
+!!! 403 => http://10.0.2.15/.htaccess.svn-base
+!!! 403 => http://10.0.2.15/.htaccess.svn-base.php
+!!! 403 => http://10.0.2.15/.htaccess.svn-base.bak
+!!! 403 => http://10.0.2.15/.htaccess.svn-base.orig
+!!! 403 => http://10.0.2.15/.htaccess.svn-base.inc
+!!! 403 => http://10.0.2.15/.htaccess.dist
+!!! 403 => http://10.0.2.15/.htaccess.dist.php
+!!! 403 => http://10.0.2.15/.htaccess.dist.bak
+!!! 403 => http://10.0.2.15/.htaccess.dist.orig
+!!! 403 => http://10.0.2.15/.htaccess.dist.inc
+[200] => http://10.0.2.15/joomla/
+[200] => http://10.0.2.15//
+!!! 403 => http://10.0.2.15/.php
+!!! 403 => http://10.0.2.15/form.phps
+!!! 403 => http://10.0.2.15/.httpd.conf
+!!! 403 => http://10.0.2.15/.httpd.conf.php
+!!! 403 => http://10.0.2.15/.httpd.conf.bak
+!!! 403 => http://10.0.2.15/.httpd.conf.orig
+!!! 403 => http://10.0.2.15/.httpd.conf.inc
+!!! 403 => http://10.0.2.15/.html
+!!! 403 => http://10.0.2.15/.html.php
+!!! 403 => http://10.0.2.15/.html.bak
+!!! 403 => http://10.0.2.15/.html.orig
+!!! 403 => http://10.0.2.15/.html.inc
+!!! 403 => http://10.0.2.15/AjaxTest.class.phps
+ !!! 403 => http://10.0.2.15/onLoadBind.phps
+ !!! 403 => http://10.0.2.15/onLoadBindPeriodicalTimer.phps
+ !!! 403 => http://10.0.2.15/AjaxCore.class.phps
+!!! 403 => http://10.0.2.15/onLoadBindTimer.phps
+!!! 403 => http://10.0.2.15/source.phps
+!!! 403 => http://10.0.2.15/.htaccess.txt
+!!! 403 => http://10.0.2.15/.htaccess.txt.php
+!!! 403 => http://10.0.2.15/.htaccess.txt.bak
+!!! 403 => http://10.0.2.15/.htaccess.txt.orig
+!!! 403 => http://10.0.2.15/.htaccess.txt.inc
+!!! 403 => http://10.0.2.15/.htaccess.sample
+!!! 403 => http://10.0.2.15/.htaccess.sample.php
+!!! 403 => http://10.0.2.15/.htaccess.sample.bak
+!!! 403 => http://10.0.2.15/.htaccess.sample.orig
+!!! 403 => http://10.0.2.15/.htaccess.sample.inc
+!!! 403 => http://10.0.2.15/demo.phps
+

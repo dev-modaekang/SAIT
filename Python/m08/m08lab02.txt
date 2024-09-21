@@ -1,0 +1,78 @@
+1.  These two types of hooks use an assembly stub to transfer execution to a small body of hook code 
+    that can log a specific register value or memory location at hook time. 
+    FastLogHook is an python object which sets up hard hook very easily. 
+    It also uses assembly stub to execute a hook function. 
+    The purpose is that it has to store all register and memory locations by doing that.
+    These types of hooks are useful for hooking frequently called functions.
+    There is an additional flavor of FastLogHook, STDCALLFastLogHook, which is adjusted for the STDCALL calling convention. 
+    For the cdecl convention use the normal FastLogHook. 
+    The usage of the two, however, is the same 
+
+    [reference from the Grey_Hat_Python book]
+
+
+
+2.  the getKnowledge() returns pickled_object. It's character stream.
+    Should there is any pickled_object, it will return None. However, therer is pickled_object, it will return the python pickle module.
+    Pickling is a way to converit a python object (list, dict, etc.) into a character stream.
+
+    *hippie_easy.py*
+    fast = imm.getKnowledge( Name )
+    if fast:
+        # We have previously set hooks, so we must want
+        # to print the results
+        hook_list = fast.getAllLog()
+
+        rtlallocate, rtlfree = imm.getKnowledge("FuncNames")
+
+    *immlib.py *
+    def getKnowledge(self,id):
+        """
+            Gets python object from the knowledge database.
+            @type  id: STRING
+            @param id: unique name tag of the object
+            @rtype:  PYTHON OBJECT
+            @return: Object retrieved from the knowledge database
+        """
+        pickled_object=debugger.get_knowledge(id)
+        #try:
+        if not pickled_object:
+            return None
+        return pickle.loads(pickled_object)
+
+    [reference from 'immlib.py' & immunity debugger with 'hippie_easy.py']
+
+
+
+3. The second parameter of the imm.disasmBAckward() displays the number of opcodes which are disassembled into the format that we can read.  
+    
+    *hippie_easy.py*
+    def getRet(imm, allocaddr, max_opcodes = 300):
+    addr = allocaddr
+
+    for a in range(0, max_opcodes):
+        op = imm.disasmForward( addr )
+        if op.isRet():
+            if op.getImmConst() == 0xC:
+                op = imm.disasmBackward( addr, 3)
+                return op.getAddress()
+        addr = op.getAddress()
+
+    *immlib.py*
+    def disasmBackward( self, address, nlines = 1, mode = DISASM_ALL):
+        """
+            disasm nlines backward from the given address
+            @type  Address: DWORD
+            @param Address: Address to disasm
+            @type  nlines: DWORD
+            @param nlines: (Optional, Def: 1) Number of lines to disassemble forward
+            @rtype:  opCode Object (Check libanalyze.py)
+            @return: Disassmbled Opcode
+        """
+        backward_address = debugger.disasm_backward( address, nlines )
+        op = opCode( self, backward_address )
+        op._getfromtuple( debugger.disasm( backward_address, mode ) )
+        return op
+
+    [reference from 'immlib.py' & immunity debugger with 'hippie_easy.py']
+

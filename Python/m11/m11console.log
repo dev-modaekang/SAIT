@@ -1,0 +1,350 @@
+=========================================================================================
+[PROBLEM 01]
+
+HTTP/1.1 200 OK
+Date: Fri, 29 Mar 2019 14:40:39 GMT
+Server: Apache/2.2.17 (Linux/SUSE)
+Cache-Control: no-store, no-cache
+Connection: close
+Content-Type: text/html
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>ITSC203 echo page</title>
+</head>
+<body>
+
+<br>2019-03-29 08:40:39
+<br>142.110.227.187
+<p>params:</p>
+</body></html>
+
+=========================================================================================
+
+
+
+[PROBLEM 02]
+
+[*] Listening on 0.0.0.0:9999
+[*] Accepted connection from: 127.0.0.1:33964
+[*] Received: GET / HTTP/1.1
+Host: 0.0.0.0:9999
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+[*] Accepted connection from: 127.0.0.1:33966
+[*] Received: GET /favicon.ico HTTP/1.1
+Host: 0.0.0.0:9999
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+[*] Accepted connection from: 127.0.0.1:33968
+[*] Received: GET /favicon.ico HTTP/1.1
+Host: 0.0.0.0:9999
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+Accept: */*
+Accept-Language: en-US
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+=========================================================================================
+
+
+
+[PROBLEM 03]
+
+Script started on Wed 03 Apr 2019 09:34:29 AM MDT
+]0;user@ubuntu: ~/git/modae-k/python/m11user@ubuntu:~/git/modae-k/python/m11$ nc -u 0.0.0.0 2013
+
+2019-04-03 15:34:40
+2019-04-03 15:34:41
+2019-04-03 15:34:42
+2019-04-03 15:34:43^Z
+[1]+  Stopped                 nc -u 0.0.0.0 2013
+
+=========================================================================================
+
+
+
+[PROBLEM 04]
+
+]0;user@ubuntu: ~/git/modae-k/python/m11user@ubuntu:~/git/modae-k/python/m11$ python m11udpc.py 
+2019-04-03 09:34:59
+
+]0;user@ubuntu: ~/git/modae-k/python/m11user@ubuntu:~/git/modae-k/python/m11$ exit
+
+=========================================================================================
+
+
+
+[PROBLEM 05]
+
+Script started on Thu 04 Apr 2019 07:28:26 PM MDT
+]0;user@ubuntu: ~/git/modae-k/python/m11user@ubuntu:~/git/modae-k/python/m11$ python m11synctimed.py 
+[*] UDP Listening on 0.0.0.0:2013
+[*] connected : 127.0.0.1:53374
+[*] Received 'AAABBBCCC' from 127.0.0.1
+[*] connected : time.nist.gov:37
+[*] Received '�Q-�' from: ('128.138.141.172', 37)
+[*] connected : 127.0.0.1:46119
+[*] Received 'AAABBBCCC' from 127.0.0.1
+[*] connected : time.nist.gov:37
+[*] Received '�Q-�' from: ('128.138.141.172', 37)
+^Z
+[1]+  Stopped                 python m11synctimed.py
+]0;user@ubuntu: ~/git/modae-k/python/m11user@ubuntu:~/git/modae-k/python/m11$ exit
+There are stopped jobs.
+]0;user@ubuntu: ~/git/modae-k/python/m11user@ubuntu:~/git/modae-k/python/m11$ exit
+
+Script done on Thu 04 Apr 2019 07:28:53 PM MDT
+
+Script started on Thu 04 Apr 2019 07:28:30 PM MDT
+]0;user@ubuntu: ~/git/modae-k/python/m11user@ubuntu:~/git/modae-k/python/m11$ sy[K[Kpythob [K[Kn m11udpc.py 
+[*] Received '�Q-�' from: 127.0.0.1:2013
+]0;user@ubuntu: ~/git/modae-k/python/m11user@ubuntu:~/git/modae-k/python/m11$ python m11udpc.py 
+[*] Received '�Q-�' from: 127.0.0.1:2013
+]0;user@ubuntu: ~/git/modae-k/python/m11user@ubuntu:~/git/modae-k/python/m11$ exit
+
+Script done on Thu 04 Apr 2019 07:28:54 PM MDT
+
+=========================================================================================
+
+
+
+[PROBLEM 06]
+
+Script done on Wed 03 Apr 2019 09:35:23 AM MDT
+Script started on Wed 03 Apr 2019 09:43:02 AM MDT
+
+]0;user@ubuntu: ~/git/modae-k/python/m11user@ubuntu:~/git/modae-k/python/m11$ python bhnet.py -t localhost -p 9999
+^Z
+[1]+  Stopped                 python bhnet.py -t localhost -p 9999
+]0;user@ubuntu: ~/git/modae-k/python/m11user@ubuntu:~/git/modae-k/python/m11$ python bhnet.py -t localhost -p 9999
+<BHP:#> 
+ls -la
+total 88
+drwxrwxr-x  2 user user 4096 Apr  3 09:26 .
+drwxrwxr-x 18 user user 4096 Feb 13 21:46 ..
+-rw-rw-r--  1 user user 3897 Apr  2 15:07 bhnet.py
+-rw-rw-r--  1 user user  654 Apr  3 09:35 m11console.log
+-rw-rw-r--  1 user user  325 Apr  3 09:30 m11p01.txt
+-rw-rw-r--  1 user user 1021 Mar 29 10:31 m11p02.txt
+-rw-rw-r--  1 user user 1766 Mar 29 11:19 m11p06.py
+-rw-rw-r--  1 user user 5240 Apr  1 10:11 m11p10.py
+-rw-rw-r--  1 user user 5367 Apr  2 15:08 m11proxy.py
+-rw-rw-r--  1 user user  910 Apr  1 09:51 m11revsshc.py
+-rw-rw-r--  1 user user 1985 Apr  1 10:03 m11sshd(2).py
+-rw-rw-r--  1 user user  552 Apr  1 09:46 m11sshd.py
+-rw-rw-r--  1 user user  617 Apr  3 09:30 m11synctimed.py
+-rw-rw-r--  1 user user  331 Apr  3 09:30 m11tcpcli.py
+-rw-rw-r--  1 user user  617 Mar 29 10:30 m11tcpsrv.py
+-rw-rw-r--  1 user user  403 Mar 29 12:15 m11timed.py
+-rw-rw-r--  1 user user  407 Mar 29 12:36 m11udpc.py
+-rw-rw-r--  1 user user  608 Apr  3 09:30 reference.txt
+
+<BHP:#> 
+pwd
+/home/user/git/modae-k/python/m11
+
+<BHP:#> 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgo 
+ogle.com\r\n\r\n" | ./bhnet.py -t www.google.om -p[K[K[K[K[Kcom -p 80
+bash: ./bhnet.py: Permission denied
+]0;user@ubuntu: ~/git/modae-k/python/m11user@ubuntu:~/git/modae-k/python/m11$ echo -ne "GET / HTTP/1.1\r\r\nHost: www.goo
+ogle.com\r\n\r\n" | ./bhnet.py -t www.google.com -p 80[C[1P[1P[1P[1@ [1@p[1@y[1@t[1@h[1@o[1@n[1@ 
+HTTP/1.1 200 OK
+
+Date: Wed, 03 Apr 2019 15:46:54 GMT
+Expires: -1
+Cache-Control: private, max-age=0
+Content-Type: text/html; charset=ISO-8859-1
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: 1P_JAR=2019-04-03-15; expires=Fri, 03-May-2019 15:46:54 GMT; path=/; domain=.google.com
+Set-Cookie: NID=180=VOtPkqZ3HB0gFWcEslJveEiWF3F8Auq01o06StP_9RkX8VI3USRya-Fja8Xc8dXAidg92kXUilNYmIs4k5vPdtpAd82LboeqUKpNxy64_RhvFWZzT2ZdFqGBuYxcDhsdvUkpyEzW0K5_ZKuN5osnIH-5oGUHNs3a4GNTswkfqdU; expires=Thu, 03-Oct-2019 15:46:54 GMT; path=/; domain=.google.com; HttpOnly
+Accept-Ranges: none
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+
+<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en-CA"><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script nonce="TpZVjVjehKSexR4gDTV4BA==">(function(){window.google={kEI:'btWkXNT1HM7i-gSQ8qCwAw',kEXPI:'0,1353747,57,1958,2422,697,528,730,224,1575,30,1228,1894,584,350,667,77,99,2333428,362,329158,1294,12383,4855,32691,15248,867,12163,5281,1100,3335,2,2,6801,364,3319,1263,4242,224,2218,260,5107,575,835,284,2,578,728,2432,58,2,4,1297,4323,4968,773,2248,1409,3337,1146,5,2,2,1963,2595,3601,669,1050,1808,1397,81,7,3,488,620,29,1395,978,2632,4090,1209,1288,2,4007,796,1221,37,920,753,120,1217,1364,1611,2692,43,293,1266,1503,2,631,2562,2,4,2,461,209,44,3745,403,156,354,125,2607,12,620,1139,1089,656,16,94,228,254,2,111,415,783,415,866,331,974,365,1317,486,92,127,758,96,392,29,80,320,39,334,2,514,103,456,109,272,270,10,170,6,85,24,187,831,83,142,10,78,365,337,1,11,18,450,222,509,6,322,82,48,564,14,10,54,304,215,1374,9,2,474,2,64,70,451,452,10,25,282,24,153,46,478,13,84,297,187,193,67,260,214,69,85,145,291,208,18,306,67,78,358,63,102,202,23,161,69,37,18,365,487,1231,93,628,7,5947520,2554,96,159,5997239,418,2799874,4,1572,549,333,444,1,2,80,1,900,576,13,307,1,8,1,2,2132,1,1,1,1,1,414,1,748,141,59,726,3,7,563,1,1323,363,1,6,4,38,1,3338902,15569458,3397042',authuser:0,kscs:'c9c918f0_btWkXNT1HM7i-gSQ8qCwAw',kGL:'CA'};google.sn='webhp';google.kHL='en-CA';})();(function(){google.lc=[];google.li=0;google.getEI=function(a){for(var b;a&&(!a.getAttribute||!(b=a.getAttribute("eid")));)a=a.parentNode;return b||google.kEI};google.getLEI=function(a){for(var b=null;a&&(!a.getAttribute||!(b=a.getAttribute("leid")));)a=a.parentNode;return b};google.https=function(){return"https:"==window.location.protocol};google.ml=function(){return null};google.time=function(){return(new Date).getTime()};google.log=function(a,b,e,c,g){if(a=googl
+Exiting! sth went wrong. (tho, seriously, has anything gone right in your whole pathetic existence?)
+]0;user@ubuntu: ~/git/modae-k/python/m11user@ubuntu:~/git/modae-k/python/m11$ exit
+
+=========================================================================================
+
+
+
+[problem 07]
+
+user@ubuntu:~/git/modae-k/python/m11$ sudo python m11proxy.py 127.0.0.1 80 itss.biomea.com 80 True
+[sudo] password for user: 
+[*] Listening on 127.0.0.1:80
+[==>] Received incoming connection from 127.0.0.1:55316
+
+[==>] Received 58 bytes from localhost.
+0000   47 45 54 20 2F 63 67 69 2D 62 69 6E 2F 65 63 68    GET /cgi-bin/ech
+0010   6F 2E 63 67 69 20 48 54 54 50 53 2F 31 2E 31 0D    o.cgi HTTPS/1.1.
+0020   0A 48 6F 73 74 3A 20 69 74 73 73 2E 62 69 6F 6D    .Host: itss.biom
+0030   65 61 2E 63 6F 6D 0D 0A 0D 0A                      ea.com....
+
+[==>] Sent to remote.
+[<==] Received 332 bytes from remote.
+0000   48 54 54 50 2F 31 2E 31 20 32 30 30 20 4F 4B 0D    HTTP/1.1 200 OK.
+0010   0A 44 61 74 65 3A 20 57 65 64 2C 20 30 33 20 41    .Date: Wed, 03 A
+0020   70 72 20 32 30 31 39 20 31 36 3A 35 36 3A 32 36    pr 2019 16:56:26
+0030   20 47 4D 54 0D 0A 53 65 72 76 65 72 3A 20 41 70     GMT..Server: Ap
+0040   61 63 68 65 2F 32 2E 32 2E 31 37 20 28 4C 69 6E    ache/2.2.17 (Lin
+0050   75 78 2F 53 55 53 45 29 0D 0A 43 61 63 68 65 2D    ux/SUSE)..Cache-
+0060   43 6F 6E 74 72 6F 6C 3A 20 6E 6F 2D 73 74 6F 72    Control: no-stor
+0070   65 2C 20 6E 6F 2D 63 61 63 68 65 0D 0A 43 6F 6E    e, no-cache..Con
+0080   6E 65 63 74 69 6F 6E 3A 20 63 6C 6F 73 65 0D 0A    nection: close..
+0090   43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 74 65    Content-Type: te
+00A0   78 74 2F 68 74 6D 6C 0D 0A 0D 0A 0A 3C 68 74 6D    xt/html.....<htm
+00B0   6C 3E 0A 3C 68 65 61 64 3E 0A 3C 6D 65 74 61 20    l>.<head>.<meta 
+00C0   63 68 61 72 73 65 74 3D 22 75 74 66 2D 38 22 3E    charset="utf-8">
+00D0   0A 3C 74 69 74 6C 65 3E 49 54 53 43 32 30 33 20    .<title>ITSC203 
+00E0   65 63 68 6F 20 70 61 67 65 3C 2F 74 69 74 6C 65    echo page</title
+00F0   3E 0A 3C 2F 68 65 61 64 3E 0A 3C 62 6F 64 79 3E    >.</head>.<body>
+0100   0A 0A 3C 62 72 3E 32 30 31 39 2D 30 34 2D 30 33    ..<br>2019-04-03
+0110   20 31 30 3A 35 36 3A 32 36 0A 3C 62 72 3E 31 34     10:56:26.<br>14
+0120   32 2E 31 31 30 2E 32 32 37 2E 31 38 37 0A 3C 70    2.110.227.187.<p
+0130   3E 70 61 72 61 6D 73 3A 3C 2F 70 3E 0A 3C 2F 62    >params:</p>.</b
+0140   6F 64 79 3E 3C 2F 68 74 6D 6C 3E 0A                ody></html>.
+[<==] Sent to localhost.
+[*] No more data. Closing connections.
+
+=========================================================================================
+
+
+
+[problem 08]
+
+Script started on Wed 03 Apr 2019 02:07:52 PM MDT
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ py[K[Kssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): m11_rsa.key
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in m11_rsa.key.
+Your public key has been saved in m11_rsa.key.pub.
+The key fingerprint is:
+SHA256:w0mAY28cHQnfCTqQNuLEcBQKY/OSTS3vWNJvf4busjw user@ubuntu
+The key's randomart image is:
++---[RSA 2048]----+
+|+*+ooooooo       |
+|o+X.Bo.+oo .     |
+|.= *+=o.o o      |
+|  o. +++ .       |
+|    =.. S        |
+|   . . o .       |
+|      . . .      |
+|      .E o o     |
+|       o*oo      |
++----[SHA256]-----+
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ sudo pat[K[K[Kpython m[Km1[K[Kssh[K[K[Km11p[K[K1sshd.py 192.168.100.130 22
+[sudo] password for user: 
+[+] Listening for connection...
+[+] Got a connection!
+/usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+  self._cipher = factory.new(key, *args, **kwargs)
+[-] Caught exception: 
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ exit
+
+Script done on Wed 03 Apr 2019 02:10:15 PM MDT
+Script started on Wed 03 Apr 2019 02:17:42 PM MDT
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ ssh-ketg[K[Kygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+
+[1]+  Stopped                 ssh-keygen
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ exit
+There are stopped jobs.
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ exit
+
+Script done on Wed 03 Apr 2019 02:18:05 PM MDT
+
+=========================================================================================
+
+
+
+[problem 09]
+
+Script started on Wed 03 Apr 2019 01:55:22 PM MDT
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ ket[Ky[K[K[Kssh-ket[Ktt[K[Kygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): m11_rsa.key
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in m11_rsa.key.
+Your public key has been saved in m11_rsa.key.pub.
+The key fingerprint is:
+SHA256:JHvhyQ1J6FSQgijXYyos3kyTfO0oeIJUknREjNpBr+0 user@ubuntu
+The key's randomart image is:
++---[RSA 2048]----+
+|.+B*  .=o        |
+|o+=+= +. .       |
+|+o++o=o =        |
+|+ooB ..B =       |
+|=.* + + S .      |
+|.+ * . o         |
+|  o E            |
+|                 |
+|                 |
++----[SHA256]-----+
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ sudo python m11sshd.py 192.168.100.130 22
+[sudo] password for user: 
+[+] Listening for connection...
+[+] Got a connection!
+/usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+  self._cipher = factory.new(key, *args, **kwargs)
+[+] Authenticated!
+ClientConnected
+Enter command: ls
+m11p09.log
+m11revsshc.py
+m11_rsa.key
+m11_rsa.key.pub
+m11sshd.py
+Untitled Document
+
+
+Enter command: [-] Caught exception: 
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ exit
+
+Script done on Wed 03 Apr 2019 01:56:32 PM MDT
+
+=========================================================================================
+
+
+
+[problem 10]
+
+Script started on Thu 04 Apr 2019 09:21:28 PM MDT
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ 
+[K]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ python m11p10.py 192.168.100.130 =[K-[[Kp  
+9-9-[K[K[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kp  
+8080 -[K-r 192.168.100.132:80 --i[Kuser hacker --password
+Enter SSH password: 
+Connecting to ssh host 192.168.100.130:22 ...
+/usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+  self._cipher = factory.new(key, *args, **kwargs)
+*** Failed to connect to 192.168.100.130:22: BadHostKeyException('192.168.100.130', <paramiko.rsakey.RSAKey object at 0x7fbcb861e650>, <paramiko.rsakey.RSAKey object at 0x7fbcb8670cd0>)
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ exit
+
+Script done on Thu 04 Apr 2019 09:22:27 PM MDT
+

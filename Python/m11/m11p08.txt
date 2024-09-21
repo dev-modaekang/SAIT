@@ -1,0 +1,44 @@
+Script started on Wed 03 Apr 2019 02:07:52 PM MDT
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ py[K[Kssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): m11_rsa.key
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in m11_rsa.key.
+Your public key has been saved in m11_rsa.key.pub.
+The key fingerprint is:
+SHA256:w0mAY28cHQnfCTqQNuLEcBQKY/OSTS3vWNJvf4busjw user@ubuntu
+The key's randomart image is:
++---[RSA 2048]----+
+|+*+ooooooo       |
+|o+X.Bo.+oo .     |
+|.= *+=o.o o      |
+|  o. +++ .       |
+|    =.. S        |
+|   . . o .       |
+|      . . .      |
+|      .E o o     |
+|       o*oo      |
++----[SHA256]-----+
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ sudo pat[K[K[Kpython m[Km1[K[Kssh[K[K[Km11p[K[K1sshd.py 192.168.100.130 22
+[sudo] password for user: 
+[+] Listening for connection...
+[+] Got a connection!
+/usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+  self._cipher = factory.new(key, *args, **kwargs)
+[-] Caught exception: 
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ exit
+
+Script done on Wed 03 Apr 2019 02:10:15 PM MDT
+Script started on Wed 03 Apr 2019 02:17:42 PM MDT
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ ssh-ketg[K[Kygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+
+[1]+  Stopped                 ssh-keygen
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ exit
+There are stopped jobs.
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ exit
+
+Script done on Wed 03 Apr 2019 02:18:05 PM MDT

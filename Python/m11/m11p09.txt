@@ -1,0 +1,43 @@
+Script started on Wed 03 Apr 2019 01:55:22 PM MDT
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ ket[Ky[K[K[Kssh-ket[Ktt[K[Kygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user/.ssh/id_rsa): m11_rsa.key
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in m11_rsa.key.
+Your public key has been saved in m11_rsa.key.pub.
+The key fingerprint is:
+SHA256:JHvhyQ1J6FSQgijXYyos3kyTfO0oeIJUknREjNpBr+0 user@ubuntu
+The key's randomart image is:
++---[RSA 2048]----+
+|.+B*  .=o        |
+|o+=+= +. .       |
+|+o++o=o =        |
+|+ooB ..B =       |
+|=.* + + S .      |
+|.+ * . o         |
+|  o E            |
+|                 |
+|                 |
++----[SHA256]-----+
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ sudo python m11sshd.py 192.168.100.130 22
+[sudo] password for user: 
+[+] Listening for connection...
+[+] Got a connection!
+/usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+  self._cipher = factory.new(key, *args, **kwargs)
+[+] Authenticated!
+ClientConnected
+Enter command: ls
+m11p09.log
+m11revsshc.py
+m11_rsa.key
+m11_rsa.key.pub
+m11sshd.py
+Untitled Document
+
+
+Enter command: [-] Caught exception: 
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ exit
+
+Script done on Wed 03 Apr 2019 01:56:32 PM MDT

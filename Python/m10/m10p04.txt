@@ -1,0 +1,28 @@
+File fuzzer is a quality assurance technique used to 
+discover coding errors and security loopholes in software, operating systems or networks.
+ex) buffer overflow, DOS (denial of service), cross-site scripting and SQL injection.
+
+[def init] : line 16~41 
+Defines some global variables which will be used. 
+
+[def file_picker] : line 43~50
+List the files in a directory and pick one of them randomly for mutation.   
+
+[def fuzz] : line 53~76
+Picks a file to mutate.
+Starts a debugger thread and monitoring thread
+
+[def start_debugger &] : line 78~88  
+It will run the file under the debugger and go through every single iterations of the file.
+
+[def check_accessv] : line 110~137
+Record the information of crash.
+Backups the files.
+
+[def notify] : line 139~147
+Sending notifications via email.
+
+[def mutate_file] : line 149~179
+Pull the contents of the file into a buffer.
+Take a random test case and apply it to a random position in the file.
+Apply it to the buffer and splice it in our fuzz data.

@@ -1,0 +1,3 @@
+I attach the images for problem 6. (m09p06(1).PNG / m09p06(2).PNG )
+
+it succeed to excute the backdoor_shell.py but I can't connect with victim workstation.

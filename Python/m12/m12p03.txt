@@ -1,0 +1,114 @@
+====================================================================================================
+m12decode.py
+====================================================================================================
+Script started on Tue 09 Apr 2019 03:11:41 PM MDT
+]0;user@ubuntu: ~/git/modae-k/python/m12user@ubuntu:~/git/modae-k/python/m12$ except KeyboardInterrupt:[10P# handle CTRL-Ct.start()         try: = threading.Thread(target=udp_sender,args
+s=(subnet,magic_message))[A
+]0;user@ubuntu: ~/git/modae-k/python/m12user@ubuntu:~/git/modae-k/python/m12$ [C[20P.start()         try:
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P# handle CTRL-Cexcept KeyboardInterrupt:[Ksudo python m12decode.py [K
+[sudo] password for user: 
+My IP: 10.187.136.253
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 3
+Host Up: 10.187.136.253
+Proto: ICMP 10.187.136.40 -> 10.187.136.253     ICMP -> Type: 3 Code: 3
+Proto: ICMP 10.187.136.134 -> 10.187.136.253     ICMP -> Type: 3 Code: 3
+Proto: ICMP 10.187.136.134 -> 10.187.136.253     ICMP -> Type: 8 Code: 0
+Proto: ICMP 10.187.136.134 -> 10.187.136.253     ICMP -> Type: 8 Code: 0
+Proto: ICMP 10.187.136.134 -> 10.187.136.253     ICMP -> Type: 8 Code: 0
+Proto: ICMP 10.187.136.134 -> 10.187.136.253     ICMP -> Type: 8 Code: 0
+Host Up: 10.187.136.134
+Proto: ICMP 10.187.136.214 -> 10.187.136.253     ICMP -> Type: 3 Code: 3
+Proto: ICMP 10.187.136.134 -> 10.187.136.253     ICMP -> Type: 8 Code: 0
+Proto: ICMP 10.187.136.134 -> 10.187.136.253     ICMP -> Type: 8 Code: 0
+Proto: ICMP 10.187.136.134 -> 10.187.136.253     ICMP -> Type: 8 Code: 0
+Proto: ICMP 10.187.136.134 -> 10.187.136.253     ICMP -> Type: 8 Code: 0
+Proto: ICMP 10.187.136.134 -> 10.187.136.253     ICMP -> Type: 8 Code: 0
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+Proto: ICMP 10.187.136.253 -> 10.187.136.253     ICMP -> Type: 3 Code: 1
+
+^C]0;user@ubuntu: ~/git/modae-k/python/m12user@ubuntu:~/git/modae-k/python/m12$ exit
+
+Script done on Tue 09 Apr 2019 03:12:04 PM MDT
+
+
+
+====================================================================================================
+*using c_types
+m12disco2.py
+====================================================================================================
+Script started on Fri 05 Apr 2019 10:30:58 AM MDT
+]0;user@ubuntu: ~/git/modae-k/python/m12user@ubuntu:~/git/modae-k/python/m12$ python m12decode.py[5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[sudo] password for user: 
+My IP: 10.187.136.253
+Proto: ICMP 10.12.96.12 -> 10.187.136.253 ICMP -> Type: 8 Code: 0
+Host up: 10.187.136.253
+Proto: ICMP 10.12.96.12 -> 10.187.136.253 ICMP -> Type: 8 Code: 0
+Host up: 10.187.136.253
+Proto: ICMP 10.12.96.12 -> 10.187.136.253 ICMP -> Type: 8 Code: 0
+Host up: 10.187.136.253
+Proto: ICMP 10.187.136.253 -> 10.187.136.253 ICMP -> Type: 8 Code: 0
+Host up: 10.187.136.253
+Proto: ICMP 10.187.136.253 -> 10.187.136.253 ICMP -> Type: 8 Code: 0
+Host up: 10.187.136.253
+Proto: ICMP 10.187.136.253 -> 10.187.136.253 ICMP -> Type: 8 Code: 0
+Host up: 10.187.136.253
+Proto: ICMP 10.187.136.253 -> 10.187.136.253 ICMP -> Type: 8 Code: 0
+Host up: 10.187.136.253
+Proto: ICMP 10.187.230.237 -> 10.187.136.253 ICMP -> Type: 8 Code: 0
+Host up: 10.187.136.253
+Proto: ICMP 10.187.230.237 -> 10.187.136.253 ICMP -> Type: 8 Code: 0
+Host up: 10.187.136.253
+Proto: ICMP 10.187.230.237 -> 10.187.136.253 ICMP -> Type: 8 Code: 0
+Host up: 10.187.136.253
+^C]0;user@ubuntu: ~/git/modae-k/python/m12user@ubuntu:~/git/modae-k/python/m12$ exit
+
+Script done on Fri 05 Apr 2019 10:31:42 AM MDT

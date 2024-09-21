@@ -1,0 +1,98 @@
+Script started on Wed 10 Apr 2019 10:59:08 AM MDT
+]0;user@ubuntu: ~/git/modae-k/python/m12user@ubuntu:~/git/modae-k/python/m12$ gitk push origin mastercommit -am "presence"[3Padd 190410-vp5iqw [3Ptouch 190410-vp5iqwgit add 190410-vp5iqw commit -am "presence"[3Ppush origin master=[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo python m12analyze.py [K 10
+[sudo] password for user: 
+
+Host=10.187.128.24	Proto=ICMP	Count=1
+
+Host=10.187.128.205	Proto=ICMP	Count=1
+
+Host=10.187.128.117	Proto=ICMP	Count=1
+
+Host=10.187.129.66	Proto=ICMP	Count=1
+
+Host=10.187.128.164	Proto=ICMP	Count=1
+
+Host=10.187.128.212	Proto=ICMP	Count=1
+
+Host=10.187.129.30	Proto=ICMP	Count=1
+
+Host=10.187.128.93	Proto=ICMP	Count=1
+
+Host=10.187.128.10	Proto=ICMP	Count=1
+
+Host=10.187.128.255	Proto=ICMP	Count=1
+
+Host=10.187.129.48	Proto=ICMP	Count=1
+
+Host=10.187.128.40	Proto=ICMP	Count=1
+
+Host=10.187.129.13	Proto=ICMP	Count=1
+
+Host=10.187.129.25	Proto=ICMP	Count=1
+
+Host=10.187.128.55	Proto=ICMP	Count=1
+
+Host=10.187.129.79	Proto=ICMP	Count=1
+
+Host=10.187.129.72	Proto=ICMP	Count=1
+
+Host=10.187.129.10	Proto=ICMP	Count=1
+
+Host=10.187.128.95	Proto=ICMP	Count=1
+
+Host=10.187.129.90	Proto=ICMP	Count=1
+
+Host=10.187.129.143	Proto=ICMP	Count=1
+
+Host=10.187.129.170	Proto=ICMP	Count=1
+
+Host=10.187.129.124	Proto=ICMP	Count=1
+
+Host=10.187.129.156	Proto=ICMP	Count=1
+
+Host=10.187.130.91	Proto=ICMP	Count=1
+
+Host=10.187.129.129	Proto=ICMP	Count=1
+
+Host=10.187.129.186	Proto=ICMP	Count=1
+
+Host=10.187.129.133	Proto=ICMP	Count=1
+
+Host=10.187.130.66	Proto=ICMP	Count=1
+
+Host=10.187.129.161	Proto=ICMP	Count=1
+
+Host=10.187.129.151	Proto=ICMP	Count=1
+
+Host=10.187.129.101	Proto=ICMP	Count=1
+
+Host=10.187.130.62	Proto=ICMP	Count=1
+
+Host=10.187.130.58	Proto=ICMP	Count=1
+
+Host=10.187.128.223	Proto=ICMP	Count=1
+
+Host=10.187.130.59	Proto=ICMP	Count=1
+
+Host=10.187.130.41	Proto=ICMP	Count=1
+
+Host=10.187.129.207	Proto=ICMP	Count=1
+
+Host=10.187.131.8	Proto=ICMP	Count=1
+
+Host=10.187.130.213	Proto=ICMP	Count=1
+
+Host=10.187.130.184	Proto=ICMP	Count=1
+
+Host=10.187.131.149	Proto=ICMP	Count=1
+
+Host=10.187.130.202	Proto=ICMP	Count=1
+
+Host=10.187.131.36	Proto=ICMP	Count=1
+
+Host=10.187.131.151	Proto=ICMP	Count=1
+
+Host=10.187.131.148	Proto=ICMP	Count=1
+]0;user@ubuntu: ~/git/modae-k/python/m12user@ubuntu:~/git/modae-k/python/m12$ exit
+
+Script done on Wed 10 Apr 2019 11:00:18 AM MDT

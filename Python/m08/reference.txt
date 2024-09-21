@@ -1,0 +1,6 @@
+https://blog.naver.com/knq1130/220540808521
+https://github.com/kbandla/ImmunityDebugger/blob/master/1.85/Libs/immlib.py
+https://www.sans.org/reading-room/whitepapers/malicious/basic-reverse-engineering-immunity-debugger-36982
+https://sgros-students.blogspot.com/2014/05/immunity-debugger-basics-part-1.html
+https://github.com/kbandla/ImmunityDebugger/blob/master/1.85/Libs/immlib.py
+http://c0defreak.blogspot.com/2013/03/

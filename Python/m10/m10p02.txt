@@ -1,0 +1,23 @@
+[integer overflow]
+An integer overflow occurs when an attempt is made to store a value larger or samller(negative) than the range of signed int(-32767 ~ 32767).
+The processor drops the smaller(positive) or larger(negative) bits in order to successfully store the value.
+
+MOV EAX, [ESP + 0x8]
+LEA EDI, [EAX + 0x24]
+PUSH EDI
+CALL msvcrt.malloc
+
+Take off a parameter from the stack [ESP + 0x8] and loads it into EAX. 
+Add 0x24 to EAX and stores to the result in EDI. 
+Use this value as a parameter when we call the malloc. 
+The integer overflow occurs when user add 0x24 with the condition that EAX has a high number which is close to the max range of integer.
+
+[compromising the heap]
+Stack Parameter         => 0xFFFFFFF5
+Arithmetic Operation    => 0xFFFFFFF5 + 0x24 
+Arithmetic Result       => 0x100000019 (larger than 32 bits)
+Processor Truncates     => 0x00000019
+
+We assume the parameter on the stack has 0xFFFFFFF5.
+0X19 bytes will be allocated by malloc. 
+Buffer overflow occurs when the buffer tries to hold more portion of user input than it can handle.

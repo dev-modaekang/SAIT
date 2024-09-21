@@ -1,0 +1,31 @@
+C:\Users\user\Desktop\python\m09>python m09p01_dll_injector.py 2328 ghp_inject.dll
+
+[*] Remote thread with ID 0x00000e60 created.
+[*] Check the value for the questions"
+[*] The address of kernel allocated for the DLL path :  0x00c80000
+[*] The address of location of the LoadLibraryA() function : 0x76d8395c
+
+====================================================================================
+
+address of kernel allocated for the DLL path    :   0x00c80000
+address of locatio nof the LoadLibraryA()       :   0x76d8395c
+
+====================================================================================
+
+PAGE_READWRITE      :   0x04
+                        Enables read-only or read/write access to the committed region of pages. 
+                        If Data Execution Prevention is enabled, attempting to execute code in the committed region results in an access violation.
+
+PROCESS_ALL_ACCESS  :   0x000F0000 | 0x00100000 | 0xFFF
+                        All possible access rights for a process object
+
+VIRTUAL_MEM         :   0x1000 
+                        Allocates memory charges (from the overall size of memory and the paging files on disk) for the specified reserved memory pages. 
+                        The function also guarantees that when the caller later initially accesses the memory, the contents will be zero. 
+                        Actual physical pages are not allocated unless/until the virtual addresses are actually accessed.
+                        0x2000   
+                        Reserves a range of the process's virtual address space 
+                        without allocating any actual physical storage in memory or in the paging file on disk.
+
+h_loadlib           :   we use h_loadlib to resolve the memory address where LoadLibraryA() lives ,
+                        so that we can point the subsequent CreateRemoteThread() call to its memory location

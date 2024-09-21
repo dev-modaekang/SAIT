@@ -1,0 +1,74 @@
+https://pymotw.com/2/socket/tcp.html
+
+
+[problem 01]
+client
+fd = socket (www.google.com)
+write (fd, "GET itsc203~~~/~~~")
+read (fd, buffer, size)
+
+
+[problem 02]
+fd = socket ()
+bind (ip, 80)
+listen(fd)
+fork() : keep listening
+consock =  accept(fd)
+
+
+[making script file]
+script m04console.log
+
+-> after that you add -a to overwrite the log
+ex) script -a m04console.log
+
+Ctrl + D : STOP CAPTURING
+
+
+[problem 03]
+run m11timed.py than
+netcat -u 0.0.0.0 2013
+
+
+[problem 04]
+python m11udpc.py
+
+
+[problem 05]
+python m11synctimed.py
+python m11updpc.py (change the part for priting the data)
+
+
+[problem 06]
+python bhnet.py -l -p 9999 -c
+python bhnet.py -t localhost -p 9999
+echo -ne "GET / HTTP/1.1\r\nHost: www.google.com\r\n\r\n" |python bhnet.py -t www.google.com -p 80
+
+
+[problem 07]
+Modify m11tcpcli.py line 5 host ="itss.biomea.com" to host="127.0.0.1"
+sudo python m11proxy.py 127.0.0.1 80 itss.biomea.com 80 True
+python m11tcpcli.py
+
+
+[problem 08]
+apt-get install python-paramiko
+
+ps -fA | grep ssh
+kill [pid]
+
+ssh-keygen
+ssh hacker@192.168.100.130
+
+
+[problem 09]
+ps -fA | grep ssh
+kill [pid]
+
+ssh-keygen
+sudo python m11sshd.py 192.168.100.130 22
+python m11revsshc.py
+
+
+[problem 10]
+m11p10.py 192.168.100.130 -p 8080 -r 192.168.100.132:80--user hacker --password

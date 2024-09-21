@@ -1,0 +1,33 @@
+[making script file]
+script m04console.log
+
+-> after that you add -a to overwrite the log
+ex) script -a m04console.log
+
+Ctrl + D : STOP CAPTURING
+
+[IPv4 Header]
+PAYLOAD -> TCP -> IP -> ETHERNET
+https://blog.naver.com/butterfly3300/221247970521\
+https://blog.naver.com/hanoolee/221361429706
+
+
+[problem 01]
+
+
+[problem 02]
+
+
+[problem 03]
+type 0 : echo reply
+type 3 : Destination Unreachable
+type 8 : echo
+
+MODULE 03
+https://docs.python.org/2/library/struct.html
+
+https://en.wikipedia.org/wiki/IPv4#Header
+https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol
+
+[problem 04] 
+sudo apt-get install python-netaddr

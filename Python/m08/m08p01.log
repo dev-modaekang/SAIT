@@ -1,0 +1,883 @@
+          [20:04:11] Thread 0000178C terminated, exit code 0
+          [20:04:12] Thread 000011A0 terminated, exit code 0
+          [20:04:12] Thread 00001C50 terminated, exit code 0
+          [20:04:12] Thread 00000154 terminated, exit code 0
+          [20:04:12] Thread 00000EA4 terminated, exit code 0
+          [20:04:12] Thread 00001B60 terminated, exit code 0
+          [20:04:12] Thread 00001C1C terminated, exit code 0
+778403E7  New thread with ID 0000198C created
+6F8C6250  New thread with ID 00001994 created
+75ADB760  [20:04:12] Exception 406D1388
+75ADB760  [20:04:16] Debug string: [JavaScript Error: "Async execution error (1): no such table: moz_favicons" {file: "resource://app/modules/WindowsJumpLists.jsm" line: 442}]
+WTBLJL__getHistoryResults/<.handleError@resource://app/modules/WindowsJumpLists.jsm:442:9
+          [20:04:16] Thread 00001DDC terminated, exit code 0
+6F8C6250  New thread with ID 000003A8 created
+75ADB760  [20:04:16] Exception 406D1388
+6F8C6250  New thread with ID 00001E44 created
+75ADB760  [20:04:17] Exception 406D1388
+6F8C6250  New thread with ID 00001A2C created
+75ADB760  [20:04:18] Exception 406D1388
+6F8C6250  New thread with ID 00001EF8 created
+75ADB760  [20:04:19] Exception 406D1388
+          [20:04:21] Thread 00001E44 terminated, exit code 0
+753A62EE  New thread with ID 00001F9C created
+6F8C6250  New thread with ID 000010C8 created
+75ADB760  [20:04:21] Exception 406D1388
+          [20:04:24] Thread 00001EF8 terminated, exit code 0
+6F8C6250  New thread with ID 000008C4 created
+75ADB760  [20:04:26] Exception 406D1388
+00F50000  Unload C:\Program Files\Mozilla Firefox\firefox.exe
+56D20000  Unload C:\Program Files\Mozilla Firefox\xul.dll
+5AD60000  Unload C:\Windows\System32\msmpeg2vdec.dll
+659F0000  Unload C:\Windows\system32\MSIMG32.dll
+6E5C0000  Unload C:\Program Files\Mozilla Firefox\mozavcodec.dll
+6F460000  Unload C:\Windows\System32\msmpeg2adec.dll
+6F630000  Unload C:\Program Files\Mozilla Firefox\lgpllibs.dll
+6F6F0000  Unload C:\Program Files\Mozilla Firefox\nss3.dll
+6F840000  Unload C:\Program Files\Mozilla Firefox\ucrtbase.DLL
+702F0000  Unload C:\Windows\system32\LINKINFO.dll
+70780000  Unload C:\Windows\system32\ntshrui.dll
+708C0000  Unload C:\Windows\system32\explorerframe.dll
+70D20000  Unload C:\Windows\system32\sensapi.dll
+71290000  Unload C:\Windows\system32\rasadhlp.dll
+714C0000  Unload C:\Windows\system32\wbem\wbemsvc.dll
+716D0000  Unload C:\Windows\system32\wbem\wbemprox.dll
+716E0000  Unload C:\Windows\system32\NTDSAPI.dll
+71700000  Unload C:\Windows\system32\wbem\fastprox.dll
+71810000  Unload C:\Windows\System32\sqmapi.dll
+718D0000  Unload C:\Windows\system32\wbemcomn.dll
+726B0000  Unload C:\Windows\system32\rasman.dll
+726D0000  Unload C:\Windows\system32\RASAPI32.dll
+72A80000  Unload C:\Program Files\Mozilla Firefox\mozavutil.dll
+72AC0000  Unload C:\Windows\system32\evr.dll
+72B40000  Unload C:\Windows\system32\dxva2.dll
+72B60000  Unload C:\Windows\system32\mf.dll
+72E80000  Unload C:\Windows\System32\Wpc.dll
+72ED0000  Unload C:\Windows\system32\mscms.dll
+72F50000  Unload C:\Windows\System32\winrnr.dll
+72F60000  Unload C:\Windows\system32\pnrpnsp.dll
+72F80000  Unload C:\Windows\system32\napinsp.dll
+73060000  Unload C:\Windows\system32\dwrite.dll
+73240000  Unload C:\Windows\system32\WSOCK32.dll
+73380000  Unload C:\Program Files\Mozilla Firefox\nssckbi.dll
+734F0000  Unload C:\Program Files\Mozilla Firefox\freebl3.dll
+73550000  Unload C:\Program Files\Mozilla Firefox\nssdbm3.dll
+73590000  Unload C:\Program Files\Mozilla Firefox\softokn3.dll
+735C0000  Unload C:\Program Files\Mozilla Firefox\browser\components\browsercomps.dll
+735D0000  Unload C:\Windows\system32\pdh.dll
+73610000  Unload C:\Program Files\Mozilla Firefox\MSVCP140.dll
+736B0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-utility-l1-1-0.dll
+736C0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-environment-l1-1-0.dll
+736D0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-filesystem-l1-1-0.dll
+736E0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-time-l1-1-0.dll
+736F0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-multibyte-l1-1-0.dll
+73700000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-math-l1-1-0.dll
+73710000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-convert-l1-1-0.dll
+73750000  Unload C:\Windows\System32\fwpuclnt.dll
+738D0000  Unload C:\Windows\system32\mfplat.dll
+73990000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-locale-l1-1-0.dll
+739A0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-heap-l1-1-0.dll
+739B0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-stdio-l1-1-0.dll
+739C0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-string-l1-1-0.dll
+739D0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-core-processthreads-l1-1-1.dll
+739E0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-core-synch-l1-2-0.dll
+73A10000  Unload C:\Program Files\Mozilla Firefox\mozglue.dll
+73A70000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-core-file-l1-2-0.dll
+73B30000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-core-file-l2-1-0.dll
+73B40000  Unload C:\Program Files\Mozilla Firefox\VCRUNTIME140.dll
+73B80000  Unload C:\Windows\System32\slc.dll
+73BF0000  Unload C:\Windows\system32\ATL.DLL
+73C80000  Unload C:\Windows\system32\AUDIOSES.DLL
+73CC0000  Unload C:\Windows\system32\NLAapi.dll
+73EB0000  Unload C:\Windows\system32\ksuser.dll
+73EF0000  Unload C:\Windows\system32\WINMM.dll
+73F50000  Unload C:\Windows\system32\AVRT.dll
+73F60000  Unload C:\Windows\system32\POWRPROF.dll
+74010000  Unload C:\Windows\system32\rtutils.dll
+74020000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-core-localization-l1-2-0.dll
+74040000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-runtime-l1-1-0.dll
+74050000  Unload C:\Windows\system32\dbghelp.dll
+74140000  Unload C:\Windows\system32\samcli.dll
+74160000  Unload C:\Windows\system32\netutils.dll
+74220000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-core-timezone-l1-1-0.dll
+743B0000  Unload C:\Windows\system32\dwmapi.dll
+743D0000  Unload C:\Windows\System32\MMDevApi.dll
+74460000  Unload C:\Windows\system32\DUser.dll
+74490000  Unload C:\Windows\system32\DUI70.dll
+746E0000  Unload C:\Windows\system32\UxTheme.dll
+74720000  Unload C:\Windows\system32\propsys.dll
+74820000  Unload C:\Windows\system32\SAMLIB.dll
+74860000  Unload C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.dll
+74E60000  Unload C:\Windows\System32\wshtcpip.dll
+74E70000  Unload C:\Windows\system32\dhcpcsvc.DLL
+74EF0000  Unload C:\Windows\system32\WTSAPI32.dll
+74F00000  Unload C:\Windows\system32\ntmarta.dll
+74F30000  Unload C:\Windows\system32\WINNSI.DLL
+74F40000  Unload C:\Windows\system32\IPHLPAPI.DLL
+74F60000  Unload C:\Windows\system32\VERSION.dll
+74FC0000  Unload C:\Windows\System32\USERENV.dll
+75180000  Unload C:\Windows\system32\rsaenh.dll
+75260000  Unload C:\Windows\system32\Dnsapi.dll
+75390000  Unload C:\Windows\System32\wship6.dll
+753A0000  Unload C:\Windows\system32\mswsock.dll
+753E0000  Unload C:\Windows\system32\CRYPTSP.dll
+754F0000  Unload C:\Windows\System32\bcrypt.dll
+75580000  Unload C:\Windows\System32\wevtapi.dll
+757B0000  Unload C:\Windows\system32\srvcli.dll
+75840000  Unload C:\Windows\system32\SspiCli.dll
+75860000  Unload C:\Windows\system32\apphelp.dll
+758B0000  Unload C:\Windows\system32\CRYPTBASE.dll
+75920000  Unload C:\Windows\system32\WINSTA.dll
+75950000  Unload C:\Windows\system32\RpcRtRemote.dll
+75960000  Unload C:\Windows\system32\profapi.dll
+759D0000  Unload C:\Windows\system32\MSASN1.dll
+759E0000  Unload C:\Windows\system32\CFGMGR32.dll
+75AA0000  Unload C:\Windows\system32\WINTRUST.dll
+75AD0000  Unload C:\Windows\system32\KERNELBASE.dll
+75B20000  Unload C:\Windows\system32\CRYPT32.dll
+75C40000  Unload C:\Windows\system32\DEVOBJ.dll
+75C60000  Unload C:\Windows\system32\urlmon.dll
+75E00000  Unload C:\Windows\system32\USP10.dll
+75EA0000  Unload C:\Windows\system32\MSCTF.dll
+75F70000  Unload C:\Windows\system32\WININET.dll
+760A0000  Unload C:\Windows\system32\WLDAP32.dll
+760F0000  Unload C:\Windows\system32\GDI32.dll
+76140000  Unload C:\Windows\system32\OLEAUT32.dll
+761D0000  Unload C:\Windows\system32\IMM32.DLL
+761F0000  Unload C:\Windows\SYSTEM32\sechost.dll
+76210000  Unload C:\Windows\system32\NSI.dll
+76220000  Unload C:\Windows\system32\kernel32.dll
+76300000  Unload C:\Windows\system32\SHLWAPI.dll
+76360000  Unload C:\Windows\system32\RPCRT4.dll
+76410000  Unload C:\Windows\system32\PSAPI.DLL
+76420000  Unload C:\Windows\system32\SETUPAPI.dll
+765C0000  Unload C:\Windows\system32\iertutil.dll
+767C0000  Unload C:\Windows\system32\msvcrt.dll
+76870000  Unload C:\Windows\system32\SHELL32.dll
+774C0000  Unload C:\Windows\system32\USER32.dll
+77590000  Unload C:\Windows\system32\ole32.dll
+77770000  Unload C:\Windows\system32\ADVAPI32.dll
+77810000  Unload C:\Windows\SYSTEM32\ntdll.dll
+77950000  Unload C:\Windows\system32\WS2_32.dll
+77990000  Unload C:\Windows\system32\CLBCatQ.DLL
+77A20000  Unload C:\Windows\system32\LPK.dll
+          Process terminated
+End of session
+
+indows\system32\KERNELBASE.dll
+75B20000   Modules C:\Windows\system32\CRYPT32.dll
+75C40000   Modules C:\Windows\system32\DEVOBJ.dll
+75C60000   Modules C:\Windows\system32\urlmon.dll
+75E00000   Modules C:\Windows\system32\USP10.dll
+75EA0000   Modules C:\Windows\system32\MSCTF.dll
+75F70000   Modules C:\Windows\system32\WININET.dll
+760A0000   Modules C:\Windows\system32\WLDAP32.dll
+760F0000   Modules C:\Windows\system32\GDI32.dll
+76140000   Modules C:\Windows\system32\OLEAUT32.dll
+761D0000   Modules C:\Windows\system32\IMM32.DLL
+761F0000   Modules C:\Windows\SYSTEM32\sechost.dll
+76210000   Modules C:\Windows\system32\NSI.dll
+76220000   Modules C:\Windows\system32\kernel32.dll
+76300000   Modules C:\Windows\system32\SHLWAPI.dll
+76360000   Modules C:\Windows\system32\RPCRT4.dll
+76410000   Modules C:\Windows\system32\PSAPI.DLL
+76420000   Modules C:\Windows\system32\SETUPAPI.dll
+765C0000   Modules C:\Windows\system32\iertutil.dll
+767C0000   Modules C:\Windows\system32\msvcrt.dll
+76870000   Modules C:\Windows\system32\SHELL32.dll
+774C0000   Modules C:\Windows\system32\USER32.dll
+77590000   Modules C:\Windows\system32\ole32.dll
+77770000   Modules C:\Windows\system32\ADVAPI32.dll
+77810000   Modules C:\Windows\SYSTEM32\ntdll.dll
+77950000   Modules C:\Windows\system32\WS2_32.dll
+77990000   Modules C:\Windows\system32\CLBCatQ.DLL
+77A20000   Modules C:\Windows\system32\LPK.dll
+778440F0   [19:35:26] Attached process paused at ntdll.DbgBreakPoint
+0BADF00D   [*] Attaching to firefox.exe with PID: 6364
+0BADF00D   [*] Hooks set, continuing process.
+0BADF00D   Pre-Encrypted: ÿt$‹PÿQƒÄÃÌÌÌÌU‹ìƒäøQSVWÿ5<Å‚o3ÿÿŒ1o‹ð…ö„'
+	
+           [19:31:16] Thread 00001B3C terminated, exit code 0
+           [19:31:17] Thread 00001A2C terminated, exit code 0
+72A80000   Modules C:\Program Files\Mozilla Firefox\mozavutil.dll
+767D12E5   New thread with ID 00000968 created
+767D12E5   New thread with ID 00001EF8 created
+           [19:31:17] Thread 00000968 terminated, exit code 0
+           [19:31:17] Thread 00001EF8 terminated, exit code 0
+767D12E5   New thread with ID 00000BB4 created
+767D12E5   New thread with ID 00001C9C created
+           [19:31:17] Thread 00000BB4 terminated, exit code 0
+           [19:31:17] Thread 00001C9C terminated, exit code 0
+6F8C6250   New thread with ID 00000A78 created
+75ADB760   [19:31:18] Exception 406D1388
+           [19:31:36] Thread 00000334 terminated, exit code 0
+           [19:31:36] Thread 00001044 terminated, exit code 0
+           [19:31:36] Thread 00001FAC terminated, exit code 0
+           [19:31:36] Thread 000011F8 terminated, exit code 0
+           [19:31:36] Thread 00001DC8 terminated, exit code 0
+           [19:31:36] Thread 00000A78 terminated, exit code 0
+6F8C6250   New thread with ID 00000BE8 created
+75ADB760   [19:31:36] Exception 406D1388
+75ADB761   [19:31:52] Single step event at KERNELBA.75ADB761
+6F7A3FC2   [19:32:01] Single step event at nss3.6F7A3FC2
+6F7A3FCB   [19:32:09] Single step event at nss3.6F7A3FCB
+75ADB760   [19:32:12] Debug string: 1552440732569	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+75ADB760   [19:32:12] Debug string: 1552440732569	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+75ADB760   [19:32:12] Debug string: [JavaScript Error: "1552440732738	Toolkit.GMP	ERROR	GMPInstallManager.simpleCheckAndInstall Could not check for addons: Error: Failed downloading XML, status: 0, reason: timeout (resource://gre/modules/addons/ProductAddonChecker.j
+6F8C6250   New thread with ID 00001DE0 created
+75ADB760   [19:32:13] Exception 406D1388
+6F8C6250   New thread with ID 00001AC4 created
+75ADB760   [19:32:32] Exception 406D1388
+75ADB761   [19:32:33] Single step event at KERNELBA.75ADB761
+6F8C6250   New thread with ID 00000184 created
+75ADB760   [19:32:36] Exception 406D1388
+6F8C6250   New thread with ID 00001984 created
+6E5C0000   Modules C:\Program Files\Mozilla Firefox\mozavcodec.dll
+702F0000   Modules C:\Windows\system32\LINKINFO.dll
+70780000   Modules C:\Windows\system32\ntshrui.dll
+757B0000   Modules C:\Windows\system32\srvcli.dll
+778403E7   New thread with ID 00001EA0 created
+75ADB760   [19:32:38] Exception 406D1388
+75ADB760   [19:32:42] Debug string: [JavaScript Error: "Async execution error (1): no such table: moz_favicons" {file: "resource://app/modules/WindowsJumpLists.jsm" line: 442}]
+WTBLJL__getHistoryResults/<.handleError@resource://app/modules/WindowsJumpLists.jsm:442:9
+           [19:32:42] Thread 00001984 terminated, exit code 0
+75ADB760   [19:32:42] Debug string: 1552440762262	Toolkit.Telemetry	WARN	TelemetryStorage::_scanArchive - have seen this id before: d83e366f-8b1f-4239-a904-84f1c6df16f4, overwrite: false
+6F8C6250   New thread with ID 00001B40 created
+75ADB760   [19:32:42] Exception 406D1388
+6F8C6250   New thread with ID 00001C1C created
+75ADB760   [19:33:18] Exception 406D1388
+           [19:33:23] Thread 00001AC4 terminated, exit code 0
+           [19:33:24] Thread 000018B8 terminated, exit code 0
+           [19:33:27] Thread 00000184 terminated, exit code 0
+           [19:33:27] Thread 00001DE0 terminated, exit code 0
+           [19:33:27] Thread 00000BE8 terminated, exit code 0
+6F8C6250   New thread with ID 000018FC created
+75ADB760   [19:33:28] Exception 406D1388
+           [19:34:03] Thread 00001B40 terminated, exit code 0
+6F8C6250   New thread with ID 00001990 created
+75ADB760   [19:34:17] Exception 406D1388
+6F8C6250   New thread with ID 00001DF4 created
+75ADB760   [19:34:32] Exception 406D1388
+6F8C6250   New thread with ID 0000192C created
+75ADB760   [19:34:39] Exception 406D1388
+6F8C6250   New thread with ID 0000132C created
+           [19:34:41] Thread 00001990 terminated, exit code 0
+75ADB760   [19:34:41] Exception 406D1388
+           [19:34:42] Thread 0000132C terminated, exit code 0
+           [19:34:42] Thread 0000192C terminated, exit code 0
+75ADB760   [19:34:44] Debug string: [JavaScript Error: "The character encoding of the HTML document was not declared. The document will render with garbled text in some browser configurations if the document contains characters from outside the US-ASCII range. The c
+6F8C6250   New thread with ID 00001F84 created
+75ADB760   [19:35:10] Exception 406D1388
+           [19:36:53] Thread 00001EA0 terminated, exit code 0
+           [19:36:53] Thread 00000460 terminated, exit code 0
+75ADB760   [19:36:53] Debug string: [JavaScript Error: "Async execution error (1): no such table: moz_favicons" {file: "resource://app/modules/WindowsJumpLists.jsm" line: 442}]
+WTBLJL__getHistoryResults/<.handleError@resource://app/modules/WindowsJumpLists.jsm:442:9
+           [19:36:53] Thread 00001DF4 terminated, exit code 0
+778403E7   New thread with ID 000010D8 created
+75ADB760   [19:37:29] Debug string: [JavaScript Warning: "Error in parsing value for ‘-webkit-transition’.  Declaration dropped." {file: "https://itss.biomea.com/css/style.css" line: 38 column: 26 source: "  -webkit-transition: all 0.3 ease;"}]
+75ADB760   [19:37:29] Debug string: [JavaScript Warning: "Error in parsing value for ‘transition’.  Declaration dropped." {file: "https://itss.biomea.com/css/style.css" line: 39 column: 18 source: "  transition: all 0.3 ease;"}]
+6F8C6250   New thread with ID 00001840 created
+75ADB760   [19:37:29] Exception 406D1388
+75ADB761   [19:37:59] Single step event at KERNELBA.75ADB761
+75ADB760   [19:38:07] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://itss.biomea.com/css/style.css" line: 104 column: 25 source: "  -moz-osx-font-smoothing: grayscale;      "}]
+75ADB760   [19:38:07] Debug string: [JavaScript Error: "When cancelling a request for https://itss.biomea.com/favicon.ico because the inner window was destroyed or a new favicon was loaded for it, it was already canceled!" {file: "resource:///modules/PlacesUIUtils.j
+           [19:38:14] Thread 00001F84 terminated, exit code 0
+75ADB760   [19:38:31] Debug string: [JavaScript Error: "The character encoding of the HTML document was not declared. The document will render with garbled text in some browser configurations if the document contains characters from outside the US-ASCII range. The c
+75ADB760   [19:38:31] Debug string: [JavaScript Error: "When cancelling a request for https://itss.biomea.com/favicon.ico because the inner window was destroyed or a new favicon was loaded for it, it was already canceled!" {file: "resource:///modules/PlacesUIUtils.j
+           [19:38:34] Thread 000010D8 terminated, exit code 0
+778403E7   New thread with ID 00000868 created
+           [19:38:52] Thread 00001840 terminated, exit code 0
+75ADB760   [19:39:24] Debug string: [JavaScript Warning: "Error in parsing value for ‘-webkit-transition’.  Declaration dropped." {file: "https://itss.biomea.com/css/style.css" line: 38 column: 26 source: "  -webkit-transition: all 0.3 ease;"}]
+75ADB760   [19:39:24] Debug string: [JavaScript Warning: "Error in parsing value for ‘transition’.  Declaration dropped." {file: "https://itss.biomea.com/css/style.css" line: 39 column: 18 source: "  transition: all 0.3 ease;"}]
+75ADB760   [19:39:24] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://itss.biomea.com/css/style.css" line: 104 column: 25 source: "  -moz-osx-font-smoothing: grayscale;      "}]
+75ADB760   [19:39:24] Debug string: [JavaScript Error: "When cancelling a request for https://itss.biomea.com/favicon.ico because the inner window was destroyed or a new favicon was loaded for it, it was already canceled!" {file: "resource:///modules/PlacesUIUtils.j
+75ADB760   [19:39:29] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:39:29] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:39:29] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:39:29] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:39:29] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:39:29] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:39:29] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_favicons
+75ADB760   [19:39:29] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_favicons" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resourc
+75ADB760   [19:39:30] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:39:30] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:39:30] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:39:30] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:39:30] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:39:30] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:39:30] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:39:30] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:39:30] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:39:30] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:39:30] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:39:30] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:39:31] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:39:31] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:39:31] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:39:31] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:39:31] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:39:31] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:39:32] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:39:32] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:39:33] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:39:33] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:39:33] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:39:33] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+6F8C6250   New thread with ID 00001A48 created
+75ADB760   [19:39:38] Exception 406D1388
+75ADB761   [19:39:44] Single step event at KERNELBA.75ADB761
+6F7A3FC2   [19:40:08] Single step event at nss3.6F7A3FC2
+6F7A3FCB   [19:40:10] Single step event at nss3.6F7A3FCB
+75ADB760   [19:40:11] Debug string: [JavaScript Error: "Async execution error (1): no such table: moz_favicons" {file: "resource://app/modules/WindowsJumpLists.jsm" line: 442}]
+WTBLJL__getHistoryResults/<.handleError@resource://app/modules/WindowsJumpLists.jsm:442:9
+           [19:40:16] Thread 00000868 terminated, exit code 0
+6F8C6250   New thread with ID 00000614 created
+75ADB760   [19:40:18] Exception 406D1388
+778403E7   New thread with ID 00000664 created
+6F8C6250   New thread with ID 00001EB0 created
+75ADB760   [19:40:26] Exception 406D1388
+6F8C6250   New thread with ID 00001938 created
+75ADB760   [19:40:27] Exception 406D1388
+6F8C6250   New thread with ID 00001CAC created
+75ADB760   [19:40:28] Exception 406D1388
+6F8C6250   New thread with ID 00000338 created
+           [19:40:30] Thread 00000614 terminated, exit code 0
+75ADB760   [19:40:30] Exception 406D1388
+           [19:40:31] Thread 00001938 terminated, exit code 0
+           [19:40:31] Thread 00001EB0 terminated, exit code 0
+6F8C6250   New thread with ID 00001588 created
+75ADB760   [19:40:31] Exception 406D1388
+6F8C6250   New thread with ID 00000BC4 created
+           [19:40:32] Thread 00000338 terminated, exit code 0
+75ADB760   [19:40:32] Exception 406D1388
+           [19:40:33] Thread 00001CAC terminated, exit code 0
+6F8C6250   New thread with ID 00001918 created
+           [19:40:33] Thread 00000BC4 terminated, exit code 0
+75ADB760   [19:40:33] Exception 406D1388
+6F8C6250   New thread with ID 00000A74 created
+75ADB760   [19:40:36] Exception 406D1388
+75ADB761   [19:40:40] Single step event at KERNELBA.75ADB761
+6F7A3FC2   [19:40:42] Single step event at nss3.6F7A3FC2
+6F7A3FCB   [19:40:43] Single step event at nss3.6F7A3FCB
+           [19:40:44] Thread 00000A74 terminated, exit code 0
+           [19:40:44] Thread 00001588 terminated, exit code 0
+6F8C6250   New thread with ID 00001AD4 created
+75ADB760   [19:40:45] Exception 406D1388
+6F8C6250   New thread with ID 00001780 created
+75ADB760   [19:40:49] Exception 406D1388
+75ADB760   [19:40:56] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:40:56] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:40:56] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:40:56] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:40:57] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:40:57] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:40:57] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_favicons
+75ADB760   [19:40:57] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_favicons" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resourc
+75ADB760   [19:40:57] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:40:57] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:40:58] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:40:58] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:40:58] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:40:58] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:40:58] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:40:58] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:40:59] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:40:59] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:40:59] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:40:59] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:40:59] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:40:59] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:40:59] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:40:59] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:41:00] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:41:00] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:41:00] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:41:00] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:41:00] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:41:00] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+75ADB760   [19:41:00] Debug string: Query failed: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+75ADB760   [19:41:00] Debug string: [JavaScript Error: "Error(s) encountered during statement execution: no such table: moz_hosts" {file: "resource://gre/modules/Sqlite.jsm" line: 807}]
+ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource:/
+           [19:41:21] Thread 00001A48 terminated, exit code 0
+6F8C6250   New thread with ID 00001BCC created
+75ADB760   [19:41:36] Exception 406D1388
+75ADB761   [19:41:41] Single step event at KERNELBA.75ADB761
+6F7A3FC2   [19:41:42] Single step event at nss3.6F7A3FC2
+           [19:42:08] Thread 00000664 terminated, exit code 0
+6F7A3FCB   [19:42:08] Single step event at nss3.6F7A3FCB
+75ADB760   [19:42:11] Debug string: [JavaScript Warning: "Expected color but found ‘invert’.  Error in parsing value for ‘outline-color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/y9/l/0,cross/-ryB99aDj6p.css" line: 13 column: 188 source
+75ADB760   [19:42:11] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 15 column: 78 source: "._26j0{height:14px;line-height:14px;paddin
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 16 column: 673 source: "._3b8e{display:flex;flex-wrap:wrap;justif
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 17 column: 62 source: "._3u8l{align-items:center;display:flex;lin
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected color but found ‘secondary’.  Error in parsing value for ‘color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 17 column: 213 source: "._
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘font-size’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 17 column: 246 source: "._3u8l{align-items:center;display:fle
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘cursor’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 23 column: 84 source: "div.egoProfileTemplate{line-height:13px}d
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 31 column: 48 source: ".uiAttachmentTitle,.uiAttachmentDesc{
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 32 column: 98 source: ".uiCloseButton{cursor:pointer;display:-moz-inline-box
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 8 column: 167 source: "._1pmx{background-color:#3b5998;border
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 15 column: 557 source: "._5l9y{color:#fff;text-decoration:und
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-webkit-min-device-pixel-ratio’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 16 column: 220 source: ".loggedout_menubar_containe
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 23 column: 221 source: "._53jh{background-color:#3b5998;backg
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 27 column: 102 source: ".uiButton{border-radius:2px;curso
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘-moz-border-radius’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 29 column: 464 source: ".uiInterstitial{border-radius:4px;marg
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘-moz-outline-style’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 1 column: 416 source: "body{background:#fff;color:#1d2129;dire
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘max-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 824 source: "._6o4{display:inline-block;min-height:
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘animation-transition’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 2571 source: "._6o4{display:inline-block;min-heigh
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘animation-transition’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 2709 source: "._6o4{display:inline-block;min-heigh
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘animation-transition’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 2840 source: "._6o4{display:inline-block;min-heigh
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 893 source: "._1z4y ._1z4y{margin-right:inherit}.high
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 1432 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 2869 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 3444 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 4582 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 5032 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 1026 source: "._4xi1 .blueName{color:#1d2129;font-weight:bold}._4
+           [19:42:12] Thread 00001AD4 terminated, exit code 0
+           [19:42:12] Thread 00001918 terminated, exit code 0
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 2590 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 3129 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 7399 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 7974 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 9399 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 9974 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 11804 source: "._4xi1 .blueName{color:#1d2129;font-we
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 12224 source: "._4xi1 .blueName{color:#1d2129;font-we
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 4469 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 5008 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 6074 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 6488 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘vertical-align’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 20 column: 744 source: "._21dn{display:none;height:38px;
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 23 column: 2100 source: "._585-{background-color:#fff;bor
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown pseudo-class or pseudo-element ‘-ms-clear’.  Ruleset ignored due to bad selector." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 23 column: 2427 source: "._585-{b
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 31 column: 313 source: "._21dp{position:relative;z-index:301}
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 31 column: 1629 source: "._21dp{position:relative;z-index
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 1121 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 1646 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 2712 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 3140 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 1016 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 1480 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 2725 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 3184 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 4106 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 4443 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 41 column: 554 source: ".uiBoxGray{background-color:#f2f2f2;border:1px solid
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown pseudo-class or pseudo-element ‘-ms-clear’.  Ruleset ignored due to bad selector." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 48 column: 245 source: "._58ak{bo
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘-moz-border-radius’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yW/l/0,cross/K5s6eW3HzoU.css" line: 4 column: 1267 source: "#captcha fieldset{border-top:1px solid
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yW/l/0,cross/K5s6eW3HzoU.css" line: 23 column: 100 source: "._42fu{border-radius:2px;box-sizi
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘font’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 2 column: 705 source: "._3_s0._3_s0{border:0;display:flex;height:4
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 8 column: 120 source: ".clearfix:after{clear:both;content:".";display:block;
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 9 column: 62 source: ".inlineBlock{display:-moz-inline-box;display:inline-bl
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘max-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 22 column: 745 source: "._6kv{margin:6px 0 0}._52c6{border:1p
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘max-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 25 column: 1438 source: "._6m2{background-color:#fff;overflow
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 25 column: 10406 source: "._6m2{background-color:#fff;overfl
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected color but found ‘none’.  Error in parsing value for ‘background-color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 26 column: 4322 sour
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 34 column: 53 source: "#globalContainer{margin:0 auto;position:relative;zoom
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 47 column: 1739 source: "._4qk3{display:flex;flex-wrap:wrap}._3bh
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘overflow’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 140 column: 431 source: "._5pat{position:relative;word-wrap:br
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 140 column: 688 source: "._5pat{position:relative;word-wrap:
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 154 column: 2167 source: "._sa_{color:#90949c;margin-top:
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 154 column: 16594 source: "._sa_{color:#90949c;margin-top
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 158 column: 1135 source: "._fmi{align-items:center;backgroun
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Expected color but found ‘invert’.  Error in parsing value for ‘outline-color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 172 column: 68 source
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 192 column: 415 source: "._1k0o{font-size:13px}._55y4 .ho
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 195 column: 71 source: ".uiTooltipX{max-width:334px;word-wrap:break-word;pos
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 195 column: 254 source: ".uiTooltipX{max-width:334px;word-wrap:break-word;po
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 203 column: 103 source: "._4jy0{border:1px solid;border-r
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 212 column: 1149 source: ".uiContextualLayerAboveLeft ._5
+75ADB760   [19:42:12] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 215 column: 220 source: "._1tp7:not(:focus){border:1px solid
+778403E7   New thread with ID 00001580 created
+75ADB760   [19:42:21] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Unknown property ‘-moz-border-radius’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 328 source: ".goog-inline-block{position:relative;d
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Unknown property ‘-moz-box-shadow’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 892 source: ".goog-inline-block{position:relative;disp
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Unknown property ‘-moz-border-radius’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 1689 source: ".goog-inline-block{position:relative;
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Unknown property ‘-moz-box-shadow’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 2658 source: ".goog-inline-block{position:relative;dis
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Unknown property ‘-moz-border-radius’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 2949 source: ".goog-inline-block{position:relative;
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Unknown property ‘-moz-border-radius’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 22952 source: ".goog-inline-block{position:relative
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Unknown property ‘-moz-box-shadow’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 59345 source: ".goog-inline-block{position:relative;di
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Unknown property ‘-moz-box-shadow’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 115303 source: ".goog-inline-block{position:relative;d
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Expected ‘none’, URL, or filter function but found ‘progid’.  Error in parsing value for ‘filter’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 121893 source: ".goog-inline-block{position:relative;
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 122130 source: ".goog-inline-block{position:relative;
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 122364 source: ".goog-inline-block{position:relative;
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 122596 source: ".goog-inline-block{position:relative;
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 122826 source: ".goog-inline-block{position:relative;
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Unknown property ‘-moz-box-shadow’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 123529 source: ".goog-inline-block{position:relative;d
+75ADB760   [19:42:21] Debug string: [JavaScript Warning: "Expected ‘none’, URL, or filter function but found ‘alpha(’.  Error in parsing value for ‘filter’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1
+75ADB760   [19:42:22] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+6F8C6250   New thread with ID 000008AC created
+75ADB760   [19:42:22] Exception 406D1388
+75ADB760   [19:42:42] Debug string: [JavaScript Error: "IndexedDB UnknownErr: ActorsParent.cpp:585"]
+75ADB760   [19:42:43] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:43] Debug string: [JavaScript Error: "UnknownError" {file: "https://www.google.com/js/bg/OCrxuUvoiHd5iKufNROhoCDGyPle_tabzHgV6R2r2k4.js line 1 > Function line 1 > eval" line: 1}]
+75ADB760   [19:42:43] Debug string: [JavaScript Warning: "Expected ‘none’, URL, or filter function but found ‘alpha(’.  Error in parsing value for ‘filter’.  Declaration dropped." {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook
+75ADB760   [19:42:43] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:43] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:43] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:44] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:44] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Unknown property ‘-moz-border-radius’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 328 source: ".goog-inline-block{position:relative;d
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Unknown property ‘-moz-box-shadow’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 892 source: ".goog-inline-block{position:relative;disp
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Unknown property ‘-moz-border-radius’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 1689 source: ".goog-inline-block{position:relative;
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Unknown property ‘-moz-box-shadow’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 2658 source: ".goog-inline-block{position:relative;dis
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Unknown property ‘-moz-border-radius’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 2949 source: ".goog-inline-block{position:relative;
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Unknown property ‘-moz-border-radius’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 22952 source: ".goog-inline-block{position:relative
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Unknown property ‘-moz-box-shadow’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 59345 source: ".goog-inline-block{position:relative;di
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Unknown property ‘-moz-box-shadow’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 115303 source: ".goog-inline-block{position:relative;d
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Expected ‘none’, URL, or filter function but found ‘progid’.  Error in parsing value for ‘filter’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 121893 source: ".goog-inline-block{position:relative;
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 122130 source: ".goog-inline-block{position:relative;
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 122364 source: ".goog-inline-block{position:relative;
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 122596 source: ".goog-inline-block{position:relative;
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 122826 source: ".goog-inline-block{position:relative;
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Unknown property ‘-moz-box-shadow’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1 column: 123529 source: ".goog-inline-block{position:relative;d
+75ADB760   [19:42:44] Debug string: [JavaScript Warning: "Expected ‘none’, URL, or filter function but found ‘alpha(’.  Error in parsing value for ‘filter’.  Declaration dropped." {file: "https://www.gstatic.com/recaptcha/api2/v1551681158638/styles__ltr.css" line: 1
+75ADB760   [19:42:44] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:45] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:45] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:45] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:46] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:46] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:47] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:47] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:47] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:48] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:48] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:48] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:49] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:49] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:50] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:50] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:50] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:51] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:51] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:51] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:52] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:52] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:53] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:53] Debug string: [JavaScript Warning: "Use of getAttributeNode() is deprecated. Use getAttribute() instead." {file: "https://static.xx.fbcdn.net/rsrc.php/v3iRVf4/yo/l/en_US/ojhymilLXrU.js" line: 26}]
+75ADB760   [19:42:53] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:53] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:54] Debug string: [JavaScript Error: "When cancelling a request for https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico because the inner window was destroyed or a new favicon was loaded for it, it was already canceled!" {file: "resource:///m
+75ADB760   [19:42:54] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected color but found ‘invert’.  Error in parsing value for ‘outline-color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/y9/l/0,cross/-ryB99aDj6p.css" line: 13 column: 188 source
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘font’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 2 column: 705 source: "._3_s0._3_s0{border:0;display:flex;height:4
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 8 column: 120 source: ".clearfix:after{clear:both;content:".";display:block;
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 9 column: 62 source: ".inlineBlock{display:-moz-inline-box;display:inline-bl
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘max-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 22 column: 745 source: "._6kv{margin:6px 0 0}._52c6{border:1p
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘max-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 25 column: 1438 source: "._6m2{background-color:#fff;overflow
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 25 column: 10406 source: "._6m2{background-color:#fff;overfl
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected color but found ‘none’.  Error in parsing value for ‘background-color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 26 column: 4322 sour
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 34 column: 53 source: "#globalContainer{margin:0 auto;position:relative;zoom
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 47 column: 1739 source: "._4qk3{display:flex;flex-wrap:wrap}._3bh
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘overflow’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 140 column: 431 source: "._5pat{position:relative;word-wrap:br
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 140 column: 688 source: "._5pat{position:relative;word-wrap:
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 154 column: 2167 source: "._sa_{color:#90949c;margin-top:
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 154 column: 16594 source: "._sa_{color:#90949c;margin-top
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 158 column: 1135 source: "._fmi{align-items:center;backgroun
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected color but found ‘invert’.  Error in parsing value for ‘outline-color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 172 column: 68 source
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 192 column: 415 source: "._1k0o{font-size:13px}._55y4 .ho
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 195 column: 71 source: ".uiTooltipX{max-width:334px;word-wrap:break-word;pos
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 195 column: 254 source: ".uiTooltipX{max-width:334px;word-wrap:break-word;po
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 203 column: 103 source: "._4jy0{border:1px solid;border-r
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 212 column: 1149 source: ".uiContextualLayerAboveLeft ._5
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 215 column: 220 source: "._1tp7:not(:focus){border:1px solid
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘-moz-outline-style’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 1 column: 416 source: "body{background:#fff;color:#1d2129;dire
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘max-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 824 source: "._6o4{display:inline-block;min-height:
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘animation-transition’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 2571 source: "._6o4{display:inline-block;min-heigh
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘animation-transition’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 2709 source: "._6o4{display:inline-block;min-heigh
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘animation-transition’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 2840 source: "._6o4{display:inline-block;min-heigh
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 893 source: "._1z4y ._1z4y{margin-right:inherit}.high
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 1432 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 2869 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 3444 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 4582 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 5032 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 1026 source: "._4xi1 .blueName{color:#1d2129;font-weight:bold}._4
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 2590 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 3129 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 7399 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 7974 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 9399 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 9974 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 11804 source: "._4xi1 .blueName{color:#1d2129;font-we
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 12224 source: "._4xi1 .blueName{color:#1d2129;font-we
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 4469 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 5008 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 6074 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 6488 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘vertical-align’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 20 column: 744 source: "._21dn{display:none;height:38px;
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 23 column: 2100 source: "._585-{background-color:#fff;bor
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown pseudo-class or pseudo-element ‘-ms-clear’.  Ruleset ignored due to bad selector." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 23 column: 2427 source: "._585-{b
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 31 column: 313 source: "._21dp{position:relative;z-index:301}
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 31 column: 1629 source: "._21dp{position:relative;z-index
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 1121 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 1646 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 2712 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 3140 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 1016 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 1480 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 2725 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 3184 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 4106 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 4443 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 41 column: 554 source: ".uiBoxGray{background-color:#f2f2f2;border:1px solid
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown pseudo-class or pseudo-element ‘-ms-clear’.  Ruleset ignored due to bad selector." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 48 column: 245 source: "._58ak{bo
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 8 column: 167 source: "._1pmx{background-color:#3b5998;border
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 15 column: 557 source: "._5l9y{color:#fff;text-decoration:und
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-webkit-min-device-pixel-ratio’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 16 column: 220 source: ".loggedout_menubar_containe
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 23 column: 221 source: "._53jh{background-color:#3b5998;backg
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 27 column: 102 source: ".uiButton{border-radius:2px;curso
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘-moz-border-radius’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 29 column: 464 source: ".uiInterstitial{border-radius:4px;marg
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 15 column: 78 source: "._26j0{height:14px;line-height:14px;paddin
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 16 column: 673 source: "._3b8e{display:flex;flex-wrap:wrap;justif
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 17 column: 62 source: "._3u8l{align-items:center;display:flex;lin
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Expected color but found ‘secondary’.  Error in parsing value for ‘color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 17 column: 213 source: "._
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘font-size’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 17 column: 246 source: "._3u8l{align-items:center;display:fle
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘cursor’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 23 column: 84 source: "div.egoProfileTemplate{line-height:13px}d
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 31 column: 48 source: ".uiAttachmentTitle,.uiAttachmentDesc{
+75ADB760   [19:42:54] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 32 column: 98 source: ".uiCloseButton{cursor:pointer;display:-moz-inline-box
+75ADB760   [19:42:55] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+75ADB760   [19:42:55] Debug string: [JavaScript Error: "TypeError: o is null" {file: "https://fbsbx.com/captcha/recaptcha/iframe/?referer=https%3A%2F%2Fwww.facebook.com" line: 1}]
+           [19:43:06] Thread 00001BCC terminated, exit code 0
+           [19:43:06] Thread 00001780 terminated, exit code 0
+75ADB760   [19:43:12] Debug string: [JavaScript Error: "Async execution error (1): no such table: moz_favicons" {file: "resource://app/modules/WindowsJumpLists.jsm" line: 442}]
+WTBLJL__getHistoryResults/<.handleError@resource://app/modules/WindowsJumpLists.jsm:442:9
+6F8C6250   New thread with ID 000016E4 created
+75ADB760   [19:43:12] Exception 406D1388
+           [19:43:35] Thread 000008AC terminated, exit code 0
+75ADB760   [19:43:38] Debug string: [JavaScript Error: "mismatched tag. Expected: </link>." {file: "https://services.addons.mozilla.org/en-US/firefox/api/1.5/search/guid:aushelper%40mozilla.org,e10srollout%40mozilla.org,firefox%40getpocket.com,webcompat%40mozilla.or
+75ADB760   [19:43:38] Debug string: 1552441418595	addons.repository	WARN	Search failed when repopulating cache
+75ADB760   [19:43:38] Debug string: 1552441418595	addons.repository	WARN	Search failed when repopulating cache
+6F8C6250   New thread with ID 0000104C created
+75ADB760   [19:43:42] Exception 406D1388
+75ADB761   [19:43:47] Single step event at KERNELBA.75ADB761
+           [19:43:58] Thread 00001580 terminated, exit code 0
+6F8C6250   New thread with ID 0000180C created
+75ADB760   [19:43:58] Exception 406D1388
+75ADB761   [19:44:00] Single step event at KERNELBA.75ADB761
+75ADB760   [19:44:02] Debug string: 1552441442698	addons.update-checker	WARN	onUpdateCheckComplete failed to parse update manifest: [Exception... "Update manifest is missing a required addons property."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame
+75ADB760   [19:44:02] Debug string: 1552441442698	addons.update-checker	WARN	onUpdateCheckComplete failed to parse update manifest: [Exception... "Update manifest is missing a required addons property."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame
+75ADB760   [19:44:02] Debug string: 1552441442739	addons.update-checker	WARN	onUpdateCheckComplete failed to parse update manifest: [Exception... "Update manifest is missing a required addons property."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame
+75ADB760   [19:44:02] Debug string: 1552441442739	addons.update-checker	WARN	onUpdateCheckComplete failed to parse update manifest: [Exception... "Update manifest is missing a required addons property."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame
+75ADB760   [19:44:02] Debug string: 1552441442757	addons.update-checker	WARN	onUpdateCheckComplete failed to parse update manifest: [Exception... "Update manifest is missing a required addons property."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame
+75ADB760   [19:44:02] Debug string: 1552441442757	addons.update-checker	WARN	onUpdateCheckComplete failed to parse update manifest: [Exception... "Update manifest is missing a required addons property."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame
+75ADB760   [19:44:02] Debug string: 1552441442814	addons.update-checker	WARN	onUpdateCheckComplete failed to parse update manifest: [Exception... "Update manifest is missing a required addons property."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame
+75ADB760   [19:44:02] Debug string: 1552441442814	addons.update-checker	WARN	onUpdateCheckComplete failed to parse update manifest: [Exception... "Update manifest is missing a required addons property."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame
+75ADB760   [19:44:02] Debug string: 1552441442832	addons.update-checker	WARN	onUpdateCheckComplete failed to parse update manifest: [Exception... "Update manifest is missing a required addons property."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame
+75ADB760   [19:44:02] Debug string: 1552441442832	addons.update-checker	WARN	onUpdateCheckComplete failed to parse update manifest: [Exception... "Update manifest is missing a required addons property."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame
+778403E7   New thread with ID 00001D1C created
+           [19:44:43] Thread 0000104C terminated, exit code 0
+           [19:44:47] Thread 0000180C terminated, exit code 0
+           [19:44:47] Thread 000016E4 terminated, exit code 0
+75ADB760   [19:44:55] Debug string: [JavaScript Warning: "Use of getAttributeNode() is deprecated. Use getAttribute() instead." {file: "https://static.xx.fbcdn.net/rsrc.php/v3iRVf4/yo/l/en_US/ojhymilLXrU.js" line: 26}]
+75ADB760   [19:44:55] Debug string: [JavaScript Error: "When cancelling a request for https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico because the inner window was destroyed or a new favicon was loaded for it, it was already canceled!" {file: "resource:///m
+75ADB760   [19:44:55] Debug string: [JavaScript Warning: "Expected color but found ‘invert’.  Error in parsing value for ‘outline-color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/y9/l/0,cross/-ryB99aDj6p.css" line: 13 column: 188 source
+75ADB760   [19:44:55] Debug string: [JavaScript Warning: "Error in parsing value for ‘font’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 2 column: 705 source: "._3_s0._3_s0{border:0;display:flex;height:4
+75ADB760   [19:44:55] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 8 column: 120 source: ".clearfix:after{clear:both;content:".";display:block;
+75ADB760   [19:44:55] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 9 column: 62 source: ".inlineBlock{display:-moz-inline-box;display:inline-bl
+75ADB760   [19:44:55] Debug string: [JavaScript Warning: "Error in parsing value for ‘max-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 22 column: 745 source: "._6kv{margin:6px 0 0}._52c6{border:1p
+75ADB760   [19:44:55] Debug string: [JavaScript Warning: "Error in parsing value for ‘max-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 25 column: 1438 source: "._6m2{background-color:#fff;overflow
+75ADB760   [19:44:55] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 25 column: 10406 source: "._6m2{background-color:#fff;overfl
+75ADB760   [19:44:55] Debug string: [JavaScript Warning: "Expected color but found ‘none’.  Error in parsing value for ‘background-color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 26 column: 4322 sour
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 34 column: 53 source: "#globalContainer{margin:0 auto;position:relative;zoom
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 47 column: 1739 source: "._4qk3{display:flex;flex-wrap:wrap}._3bh
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘overflow’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 140 column: 431 source: "._5pat{position:relative;word-wrap:br
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 140 column: 688 source: "._5pat{position:relative;word-wrap:
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 154 column: 2167 source: "._sa_{color:#90949c;margin-top:
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 154 column: 16594 source: "._sa_{color:#90949c;margin-top
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 158 column: 1135 source: "._fmi{align-items:center;backgroun
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected color but found ‘invert’.  Error in parsing value for ‘outline-color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 172 column: 68 source
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 192 column: 415 source: "._1k0o{font-size:13px}._55y4 .ho
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 195 column: 71 source: ".uiTooltipX{max-width:334px;word-wrap:break-word;pos
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 195 column: 254 source: ".uiTooltipX{max-width:334px;word-wrap:break-word;po
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 203 column: 103 source: "._4jy0{border:1px solid;border-r
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 212 column: 1149 source: ".uiContextualLayerAboveLeft ._5
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 215 column: 220 source: "._1tp7:not(:focus){border:1px solid
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘-moz-outline-style’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 1 column: 416 source: "body{background:#fff;color:#1d2129;dire
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘max-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 824 source: "._6o4{display:inline-block;min-height:
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘animation-transition’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 2571 source: "._6o4{display:inline-block;min-heigh
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘animation-transition’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 2709 source: "._6o4{display:inline-block;min-heigh
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘animation-transition’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 2840 source: "._6o4{display:inline-block;min-heigh
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 893 source: "._1z4y ._1z4y{margin-right:inherit}.high
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 1432 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 2869 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 3444 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 4582 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 5032 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 1026 source: "._4xi1 .blueName{color:#1d2129;font-weight:bold}._4
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 2590 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 3129 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 7399 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 7974 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 9399 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 9974 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 11804 source: "._4xi1 .blueName{color:#1d2129;font-we
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 12224 source: "._4xi1 .blueName{color:#1d2129;font-we
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 4469 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 5008 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 6074 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 6488 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘vertical-align’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 20 column: 744 source: "._21dn{display:none;height:38px;
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 23 column: 2100 source: "._585-{background-color:#fff;bor
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown pseudo-class or pseudo-element ‘-ms-clear’.  Ruleset ignored due to bad selector." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 23 column: 2427 source: "._585-{b
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 31 column: 313 source: "._21dp{position:relative;z-index:301}
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 31 column: 1629 source: "._21dp{position:relative;z-index
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 1121 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 1646 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 2712 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 3140 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 1016 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 1480 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 2725 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 3184 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 4106 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 4443 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 41 column: 554 source: ".uiBoxGray{background-color:#f2f2f2;border:1px solid
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown pseudo-class or pseudo-element ‘-ms-clear’.  Ruleset ignored due to bad selector." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 48 column: 245 source: "._58ak{bo
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 8 column: 167 source: "._1pmx{background-color:#3b5998;border
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 15 column: 557 source: "._5l9y{color:#fff;text-decoration:und
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-webkit-min-device-pixel-ratio’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 16 column: 220 source: ".loggedout_menubar_containe
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 23 column: 221 source: "._53jh{background-color:#3b5998;backg
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 27 column: 102 source: ".uiButton{border-radius:2px;curso
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘-moz-border-radius’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 29 column: 464 source: ".uiInterstitial{border-radius:4px;marg
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 15 column: 78 source: "._26j0{height:14px;line-height:14px;paddin
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 16 column: 673 source: "._3b8e{display:flex;flex-wrap:wrap;justif
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 17 column: 62 source: "._3u8l{align-items:center;display:flex;lin
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Expected color but found ‘secondary’.  Error in parsing value for ‘color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 17 column: 213 source: "._
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘font-size’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 17 column: 246 source: "._3u8l{align-items:center;display:fle
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘cursor’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 23 column: 84 source: "div.egoProfileTemplate{line-height:13px}d
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 31 column: 48 source: ".uiAttachmentTitle,.uiAttachmentDesc{
+75ADB760   [19:44:56] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 32 column: 98 source: ".uiCloseButton{cursor:pointer;display:-moz-inline-box
+6F8C6250   New thread with ID 00001B60 created
+75ADB760   [19:44:57] Exception 406D1388
+75ADB761   [19:45:04] Single step event at KERNELBA.75ADB761
+6F8C6250   New thread with ID 00001C50 created
+75ADB760   [19:45:06] Exception 406D1388
+6F8C6250   New thread with ID 000011A0 created
+75ADB760   [19:45:08] Exception 406D1388
+75ADB761   [19:45:33] Single step event at KERNELBA.75ADB761
+6F8C6250   New thread with ID 00001DDC created
+75ADB760   [19:45:39] Exception 406D1388
+75ADB761   [19:45:42] Single step event at KERNELBA.75ADB761
+6F7A3FC2   [19:45:43] Single step event at nss3.6F7A3FC2
+75ADB760   [19:45:49] Debug string: [JavaScript Warning: "Use of getAttributeNode() is deprecated. Use getAttribute() instead." {file: "https://static.xx.fbcdn.net/rsrc.php/v3iRVf4/yo/l/en_US/ojhymilLXrU.js" line: 26}]
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected color but found ‘invert’.  Error in parsing value for ‘outline-color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/y9/l/0,cross/-ryB99aDj6p.css" line: 13 column: 188 source
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘font’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 2 column: 705 source: "._3_s0._3_s0{border:0;display:flex;height:4
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 8 column: 120 source: ".clearfix:after{clear:both;content:".";display:block;
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 9 column: 62 source: ".inlineBlock{display:-moz-inline-box;display:inline-bl
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘max-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 22 column: 745 source: "._6kv{margin:6px 0 0}._52c6{border:1p
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘max-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 25 column: 1438 source: "._6m2{background-color:#fff;overflow
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 25 column: 10406 source: "._6m2{background-color:#fff;overfl
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected color but found ‘none’.  Error in parsing value for ‘background-color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 26 column: 4322 sour
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 34 column: 53 source: "#globalContainer{margin:0 auto;position:relative;zoom
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 47 column: 1739 source: "._4qk3{display:flex;flex-wrap:wrap}._3bh
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘overflow’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 140 column: 431 source: "._5pat{position:relative;word-wrap:br
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 140 column: 688 source: "._5pat{position:relative;word-wrap:
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 154 column: 2167 source: "._sa_{color:#90949c;margin-top:
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 154 column: 16594 source: "._sa_{color:#90949c;margin-top
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 158 column: 1135 source: "._fmi{align-items:center;backgroun
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected color but found ‘invert’.  Error in parsing value for ‘outline-color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 172 column: 68 source
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 192 column: 415 source: "._1k0o{font-size:13px}._55y4 .ho
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 195 column: 71 source: ".uiTooltipX{max-width:334px;word-wrap:break-word;pos
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 195 column: 254 source: ".uiTooltipX{max-width:334px;word-wrap:break-word;po
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 203 column: 103 source: "._4jy0{border:1px solid;border-r
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 212 column: 1149 source: ".uiContextualLayerAboveLeft ._5
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/l/0,cross/jnVRg7j1S0Y.css" line: 215 column: 220 source: "._1tp7:not(:focus){border:1px solid
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘-moz-outline-style’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 1 column: 416 source: "body{background:#fff;color:#1d2129;dire
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘max-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 824 source: "._6o4{display:inline-block;min-height:
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘animation-transition’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 2571 source: "._6o4{display:inline-block;min-heigh
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘animation-transition’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 2709 source: "._6o4{display:inline-block;min-heigh
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘animation-transition’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 7 column: 2840 source: "._6o4{display:inline-block;min-heigh
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 893 source: "._1z4y ._1z4y{margin-right:inherit}.high
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 1432 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 2869 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 3444 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 4582 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 12 column: 5032 source: "._1z4y ._1z4y{margin-right:inherit}.hig
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 1026 source: "._4xi1 .blueName{color:#1d2129;font-weight:bold}._4
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 2590 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 3129 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 7399 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 7974 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 9399 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 9974 source: "._4xi1 .blueName{color:#1d2129;font-wei
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 11804 source: "._4xi1 .blueName{color:#1d2129;font-we
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 13 column: 12224 source: "._4xi1 .blueName{color:#1d2129;font-we
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 4469 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 5008 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 6074 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 14 column: 6488 source: "._3nzk{right:-62px}._6nw ._3nzk .reques
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘vertical-align’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 20 column: 744 source: "._21dn{display:none;height:38px;
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 23 column: 2100 source: "._585-{background-color:#fff;bor
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown pseudo-class or pseudo-element ‘-ms-clear’.  Ruleset ignored due to bad selector." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 23 column: 2427 source: "._585-{b
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 31 column: 313 source: "._21dp{position:relative;z-index:301}
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 31 column: 1629 source: "._21dp{position:relative;z-index
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 1121 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 1646 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 2712 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 32 column: 3140 source: "._5lxr{margin:8px 0;margin-right:-7px}.
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 1016 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 1480 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 2725 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 3184 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 4106 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-ms-high-contrast’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 34 column: 4443 source: "._4d1i{margin:7px 0 9px;margin-left:5px
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 41 column: 554 source: ".uiBoxGray{background-color:#f2f2f2;border:1px solid
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown pseudo-class or pseudo-element ‘-ms-clear’.  Ruleset ignored due to bad selector." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/sb_dQo4xyG7.css" line: 48 column: 245 source: "._58ak{bo
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 8 column: 167 source: "._1pmx{background-color:#3b5998;border
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 15 column: 557 source: "._5l9y{color:#fff;text-decoration:und
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected media feature name but found ‘-webkit-min-device-pixel-ratio’." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 16 column: 220 source: ".loggedout_menubar_containe
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘min-width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 23 column: 221 source: "._53jh{background-color:#3b5998;backg
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘-moz-osx-font-smoothing’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 27 column: 102 source: ".uiButton{border-radius:2px;curso
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘-moz-border-radius’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/2ayWzNQtPyS.css" line: 29 column: 464 source: ".uiInterstitial{border-radius:4px;marg
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 15 column: 78 source: "._26j0{height:14px;line-height:14px;paddin
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 16 column: 673 source: "._3b8e{display:flex;flex-wrap:wrap;justif
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘width’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 17 column: 62 source: "._3u8l{align-items:center;display:flex;lin
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Expected color but found ‘secondary’.  Error in parsing value for ‘color’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 17 column: 213 source: "._
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘font-size’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 17 column: 246 source: "._3u8l{align-items:center;display:fle
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘cursor’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 23 column: 84 source: "div.egoProfileTemplate{line-height:13px}d
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Error in parsing value for ‘word-break’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 31 column: 48 source: ".uiAttachmentTitle,.uiAttachmentDesc{
+75ADB760   [19:45:50] Debug string: [JavaScript Warning: "Unknown property ‘zoom’.  Declaration dropped." {file: "https://static.xx.fbcdn.net/rsrc.php/v3/yM/l/0,cross/2F2Kx_-CCFa.css" line: 32 column: 98 source: ".uiCloseButton{cursor:pointer;display:-moz-inline-box
+75ADB760   [19:46:12] Debug string: [JavaScript Error: "Async execution error (1): no such table: moz_favicons" {file: "resource://app/modules/WindowsJumpLists.jsm" line: 442}]
+WTBLJL__getHistoryResults/<.handleError@resource://app/modules/WindowsJumpLists.jsm:442:9
+           [19:46:14] Thread 00001D1C terminated, exit code 0
+6F8C6250   New thread with ID 00000E74 created
+75ADB760   [19:46:15] Exception 406D1388
+
+
+
+*MENTION*
+I COPIED THESE LOGS FROM THE IMMUNITY DEBUGGER. BUT I DIDN'T NOTICE THAT IT WAS SAVED AS A TXT FILE.
+ 

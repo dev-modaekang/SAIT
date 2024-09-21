@@ -1,0 +1,16 @@
+Script started on Thu 04 Apr 2019 09:21:28 PM MDT
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ 
+[K]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ python m11p10.py 192.168.100.130 =[K-[[Kp  
+9-9-[K[K[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kp  
+8080 -[K-r 192.168.100.132:80 --i[Kuser hacker --password
+Enter SSH password: 
+Connecting to ssh host 192.168.100.130:22 ...
+/usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+  self._cipher = factory.new(key, *args, **kwargs)
+*** Failed to connect to 192.168.100.130:22: BadHostKeyException('192.168.100.130', <paramiko.rsakey.RSAKey object at 0x7fbcb861e650>, <paramiko.rsakey.RSAKey object at 0x7fbcb8670cd0>)
+]0;user@ubuntu: ~/python_m11[01;32muser@ubuntu[00m:[01;34m~/python_m11[00m$ exit
+
+Script done on Thu 04 Apr 2019 09:22:27 PM MDT
