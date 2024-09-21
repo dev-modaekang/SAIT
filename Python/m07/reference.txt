@@ -1,0 +1,17 @@
+﻿problem 5
+https://s0ngsari.tistory.com/entry/Windows-Calc-Shellcode
+gcc -S m07p05.c -o m07p05.s
+objdump -d m07p05.exe
+
+problem 5
+(Immunity Debugger 용어 정리)   https://blog.naver.com/sjw9485/221458098040
+(pycommand) https://cme1245.blog.me/221334405873
+
+problem 7
+(direct EIP overflow) https://blog.naver.com/sjhmc9695/221209991448
+(buffer overflow) https://stop2y.blog.me/221086553648
+(using c)   https://blog.naver.com/sjhmc9695/221209991448
+(using python)  https://noorol.blog.me/220440585846
+
+problem 9
+(Bypass DEP) https://blog.naver.com/PostView.nhn?blogId=cme1245&logNo=221337423976&parentCategoryNo=&categoryNo=21&viewDate=&isShowPopularPosts=true&from=search

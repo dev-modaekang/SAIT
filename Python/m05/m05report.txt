@@ -1,0 +1,57 @@
+[Problem 4]
+** value of register where I read the current stack pointer **
+rax            0x7ffffffff000   140737488351232
+rbx            0x0      0
+rcx            0x7fffffdb       2147483611
+rdx            0x7ffff7dd3780   140737351858048
+rsi            0x1      1
+rdi            0x602035 6299701
+rbp            0x7fffffffdf10   0x7fffffffdf10
+rsp            0x7fffffffdd70   0x7fffffffdd70
+
+**using [objdump -d m05p03.c]
+288 026c 488B55E0 		movq	-32(%rbp), %rdx
+289 0270 8B4DE8   		movl	-24(%rbp), %ecx	
+290 0273 8B45EC   		movl	-20(%rbp), %eax	
+291 0276 89CE     		movl	%ecx, %esi
+292 0278 89C7     		movl	%eax, %edi	
+293 027a E8000000 		call	funbot
+
+**using [gcc -g -c -Wa,-adhln=m05p04.lst -fverbose-asm m05p03.c]
+4009f2:	48 8b 55 e0          	mov    -0x20(%rbp),%rdx
+4009f6:	8b 4d e8             	mov    -0x18(%rbp),%ecx
+4009f9:	8b 45 ec             	mov    -0x14(%rbp),%eax
+4009fc:	89 ce                	mov    %ecx,%esi
+4009fe:	89 c7                	mov    %eax,%edi
+400a00:	e8 92 fd ff ff       	callq  400797 <funbot>
+
+[Problem 5]
+(main)
+Stack level 0, frame at 0x7fffffffdf70:
+ rip = 0x400a0b in main; saved rip = 0x7ffff7a2d830
+ Arglist at 0x7fffffffdf60, args:
+ Locals at 0x7fffffffdf60, Previous frame's sp is 0x7fffffffdf70
+ Saved registers:
+  rbp at 0x7fffffffdf60, rip at 0x7fffffffdf68
+
+(funbot)
+Stack level 0, frame at 0x7fffffffdf20:
+ rip = 0x400926 in funbot; saved rip = 0x4009ff
+ called by frame at 0x7fffffffdf50
+ Arglist at 0x7fffffffdf10, args:
+ Locals at 0x7fffffffdf10, Previous frame's sp is 0x7fffffffdf20
+ Saved registers:
+  rbp at 0x7fffffffdf10, rip at 0x7fffffffdf18
+
+(funtop)
+Stack level 0, frame at 0x7fffffffdf50:
+ rip = 0x4009ec in funtop (m05p04.c:74); saved rip = 0x400a3e
+ called by frame at 0x7fffffffdf70
+ source language c.
+ Arglist at 0x7fffffffdf40, args: a=8, b=4, str=0x400b56 "haha"
+ Locals at 0x7fffffffdf40, Previous frame's sp is 0x7fffffffdf50
+ Saved registers:
+  rbp at 0x7fffffffdf40, rip at 0x7fffffffdf48
+
+
+

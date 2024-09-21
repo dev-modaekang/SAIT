@@ -1,0 +1,16 @@
+[2 parameters]
+00401410
+004011A0
+
+
+[whole table copy from Immunity Debugger]
+Call stack of main thread
+Address    Returns to     Procedure / arguments                     Called from                   Frame      Stack Dump
+0022FEFC   00401430       ? <JMP.&msvcrt.printf>                    callprin.0040142B                        00405044 0040400
+0022FF00   00405044         format = "%s: 0x%08x
+"
+0022FF04   00404004         <%s> = "The address of main is "
+0022FF08   00401433         <%08x> = 401433
+0022FF1C   0040145D       ? callprin.00401410                       callprin.00401458                        00404004 0040143
+0022FF4C   00401236       callprin.00401433                         callprin.00401231             0022FF48   00000001 00790EA
+0022FF6C   004012E5       ? callprin.004011A0                       callprin.004012E0             0022FF68   00000001 0000000

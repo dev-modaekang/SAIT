@@ -1,0 +1,545 @@
+   1              		.file	"m05p03.c"
+   2              	# GNU C11 (Ubuntu 5.4.0-6ubuntu1~16.04.11) version 5.4.0 20160609 (x86_64-linux-gnu)
+   3              	#	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.
+   4              	# GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+   5              	# options passed:  -imultiarch x86_64-linux-gnu m05p03.c -mtune=generic
+   6              	# -march=x86-64 -g -fverbose-asm -fstack-protector-strong -Wformat
+   7              	# -Wformat-security
+   8              	# options enabled:  -faggressive-loop-optimizations
+   9              	# -fasynchronous-unwind-tables -fauto-inc-dec -fchkp-check-incomplete-type
+  10              	# -fchkp-check-read -fchkp-check-write -fchkp-instrument-calls
+  11              	# -fchkp-narrow-bounds -fchkp-optimize -fchkp-store-bounds
+  12              	# -fchkp-use-static-bounds -fchkp-use-static-const-bounds
+  13              	# -fchkp-use-wrappers -fcommon -fdelete-null-pointer-checks
+  14              	# -fdwarf2-cfi-asm -fearly-inlining -feliminate-unused-debug-types
+  15              	# -ffunction-cse -fgcse-lm -fgnu-runtime -fgnu-unique -fident
+  16              	# -finline-atomics -fira-hoist-pressure -fira-share-save-slots
+  17              	# -fira-share-spill-slots -fivopts -fkeep-static-consts
+  18              	# -fleading-underscore -flifetime-dse -flto-odr-type-merging -fmath-errno
+  19              	# -fmerge-debug-strings -fpeephole -fprefetch-loop-arrays
+  20              	# -freg-struct-return -fsched-critical-path-heuristic
+  21              	# -fsched-dep-count-heuristic -fsched-group-heuristic -fsched-interblock
+  22              	# -fsched-last-insn-heuristic -fsched-rank-heuristic -fsched-spec
+  23              	# -fsched-spec-insn-heuristic -fsched-stalled-insns-dep -fschedule-fusion
+  24              	# -fsemantic-interposition -fshow-column -fsigned-zeros
+  25              	# -fsplit-ivs-in-unroller -fstack-protector-strong -fstdarg-opt
+  26              	# -fstrict-volatile-bitfields -fsync-libcalls -ftrapping-math
+  27              	# -ftree-coalesce-vars -ftree-cselim -ftree-forwprop -ftree-loop-if-convert
+  28              	# -ftree-loop-im -ftree-loop-ivcanon -ftree-loop-optimize
+  29              	# -ftree-parallelize-loops= -ftree-phiprop -ftree-reassoc -ftree-scev-cprop
+  30              	# -funit-at-a-time -funwind-tables -fverbose-asm -fzero-initialized-in-bss
+  31              	# -m128bit-long-double -m64 -m80387 -malign-stringops
+  32              	# -mavx256-split-unaligned-load -mavx256-split-unaligned-store
+  33              	# -mfancy-math-387 -mfp-ret-in-387 -mfxsr -mglibc -mieee-fp
+  34              	# -mlong-double-80 -mmmx -mno-sse4 -mpush-args -mred-zone -msse -msse2
+  35              	# -mtls-direct-seg-refs -mvzeroupper
+  36              	
+  37              		.text
+  38              	.Ltext0:
+  39              		.globl	get_stack
+  41              	get_stack:
+  42              	.LFB0:
+  43              		.file 1 "m05p03.c"
+   1:m05p03.c      **** #include <stdio.h>
+   2:m05p03.c      **** #include <string.h>
+   3:m05p03.c      **** #include <unistd.h>
+   4:m05p03.c      **** 
+   5:m05p03.c      **** unsigned long long get_stack(void)
+   6:m05p03.c      **** {
+  44              		.loc 1 6 0
+  45              		.cfi_startproc
+  46 0000 55       		pushq	%rbp	#
+  47              		.cfi_def_cfa_offset 16
+  48              		.cfi_offset 6, -16
+  49 0001 4889E5   		movq	%rsp, %rbp	#,
+  50              		.cfi_def_cfa_register 6
+   7:m05p03.c      ****     unsigned long long sp;
+   8:m05p03.c      ****     asm("mov %%rsp, %0": "=rm"(sp));
+  51              		.loc 1 8 0
+  52              	#APP
+  53              	# 8 "m05p03.c" 1
+   9              	    return sp;
+  54              		mov %rsp, %rax	# sp
+  55              	# 0 "" 2
+  56              	#NO_APP
+  57 0007 488945F8 		movq	%rax, -8(%rbp)	# sp, sp
+  58              		.loc 1 9 0
+  59 000b 488B45F8 		movq	-8(%rbp), %rax	# sp, D.3126
+  10:m05p03.c      **** }
+  60              		.loc 1 10 0
+  61 000f 5D       		popq	%rbp	#
+  62              		.cfi_def_cfa 7, 8
+  63 0010 C3       		ret
+  64              		.cfi_endproc
+  65              	.LFE0:
+  67              		.section	.rodata
+  68              	.LC0:
+  69 0000 41646472 		.string	"Address of funbot: %p\n"
+  69      65737320 
+  69      6F662066 
+  69      756E626F 
+  69      743A2025 
+  70              	.LC1:
+  71 0017 5B737472 		.string	"[string] %s\n"
+  71      696E675D 
+  71      2025730A 
+  71      00
+  72              	.LC2:
+  73 0024 2F70726F 		.string	"/proc/%d/maps"
+  73      632F2564 
+  73      2F6D6170 
+  73      7300
+  74              	.LC3:
+  75 0032 7200     		.string	"r"
+  76              	.LC4:
+  77 0034 73746163 		.string	"stack"
+  77      6B00
+  78              	.LC5:
+  79 003a 2D00     		.string	"-"
+  80              	.LC6:
+  81 003c 2000     		.string	" "
+  82              	.LC7:
+  83 003e 2531342E 		.string	"%14.14p: 0x%16.16llx\t"
+  83      3134703A 
+  83      20307825 
+  83      31362E31 
+  83      366C6C78 
+  84              		.text
+  85              		.globl	funbot
+  87              	funbot:
+  88              	.LFB1:
+  11:m05p03.c      **** 
+  12:m05p03.c      **** int funbot(int a ,int  b , char *str)
+  13:m05p03.c      **** {
+  89              		.loc 1 13 0
+  90              		.cfi_startproc
+  91 0011 55       		pushq	%rbp	#
+  92              		.cfi_def_cfa_offset 16
+  93              		.cfi_offset 6, -16
+  94 0012 4889E5   		movq	%rsp, %rbp	#,
+  95              		.cfi_def_cfa_register 6
+  96 0015 4881ECA0 		subq	$416, %rsp	#,
+  96      010000
+  97 001c 89BD6CFE 		movl	%edi, -404(%rbp)	# a, a
+  97      FFFF
+  98 0022 89B568FE 		movl	%esi, -408(%rbp)	# b, b
+  98      FFFF
+  99 0028 48899560 		movq	%rdx, -416(%rbp)	# str, str
+  99      FEFFFF
+ 100              		.loc 1 13 0
+ 101 002f 64488B04 		movq	%fs:40, %rax	#, tmp124
+ 101      25280000 
+ 101      00
+ 102 0038 488945F8 		movq	%rax, -8(%rbp)	# tmp124, D.3133
+ 103 003c 31C0     		xorl	%eax, %eax	# tmp124
+  14:m05p03.c      ****   int add = a + b;
+ 104              		.loc 1 14 0
+ 105 003e 8B956CFE 		movl	-404(%rbp), %edx	# a, tmp104
+ 105      FFFF
+ 106 0044 8B8568FE 		movl	-408(%rbp), %eax	# b, tmp105
+ 106      FFFF
+ 107 004a 01D0     		addl	%edx, %eax	# tmp104, tmp103
+ 108 004c 898580FE 		movl	%eax, -384(%rbp)	# tmp103, add
+ 108      FFFF
+  15:m05p03.c      ****   printf("Address of funbot: %p\n", funbot);
+ 109              		.loc 1 15 0
+ 110 0052 BE000000 		movl	$funbot, %esi	#,
+ 110      00
+ 111 0057 BF000000 		movl	$.LC0, %edi	#,
+ 111      00
+ 112 005c B8000000 		movl	$0, %eax	#,
+ 112      00
+ 113 0061 E8000000 		call	printf	#
+ 113      00
+  16:m05p03.c      ****   printf("[string] %s\n", str);
+ 114              		.loc 1 16 0
+ 115 0066 488B8560 		movq	-416(%rbp), %rax	# str, tmp106
+ 115      FEFFFF
+ 116 006d 4889C6   		movq	%rax, %rsi	# tmp106,
+ 117 0070 BF000000 		movl	$.LC1, %edi	#,
+ 117      00
+ 118 0075 B8000000 		movl	$0, %eax	#,
+ 118      00
+ 119 007a E8000000 		call	printf	#
+ 119      00
+  17:m05p03.c      ****   
+  18:m05p03.c      **** 
+  19:m05p03.c      ****   int my_pid = getpid();
+ 120              		.loc 1 19 0
+ 121 007f E8000000 		call	getpid	#
+ 121      00
+ 122 0084 898584FE 		movl	%eax, -380(%rbp)	# tmp107, my_pid
+ 122      FFFF
+  20:m05p03.c      ****   char file_name[80];
+  21:m05p03.c      ****   char line[240];
+  22:m05p03.c      **** 
+  23:m05p03.c      ****   char * token_a, token_b;
+  24:m05p03.c      **** 
+  25:m05p03.c      ****   //printf("funtop2 a%d b%d\n", a,b);
+  26:m05p03.c      ****   FILE *file;
+  27:m05p03.c      ****   sprintf(file_name, "/proc/%d/maps", my_pid);
+ 123              		.loc 1 27 0
+ 124 008a 8B9584FE 		movl	-380(%rbp), %edx	# my_pid, tmp108
+ 124      FFFF
+ 125 0090 488D85B0 		leaq	-336(%rbp), %rax	#, tmp109
+ 125      FEFFFF
+ 126 0097 BE000000 		movl	$.LC2, %esi	#,
+ 126      00
+ 127 009c 4889C7   		movq	%rax, %rdi	# tmp109,
+ 128 009f B8000000 		movl	$0, %eax	#,
+ 128      00
+ 129 00a4 E8000000 		call	sprintf	#
+ 129      00
+  28:m05p03.c      ****   //printf("%s\n", file_name);
+  29:m05p03.c      ****   file = fopen(file_name, "r");
+ 130              		.loc 1 29 0
+ 131 00a9 488D85B0 		leaq	-336(%rbp), %rax	#, tmp110
+ 131      FEFFFF
+ 132 00b0 BE000000 		movl	$.LC3, %esi	#,
+ 132      00
+ 133 00b5 4889C7   		movq	%rax, %rdi	# tmp110,
+ 134 00b8 E8000000 		call	fopen	#
+ 134      00
+ 135 00bd 488985A0 		movq	%rax, -352(%rbp)	# tmp111, file
+ 135      FEFFFF
+  30:m05p03.c      **** 
+  31:m05p03.c      ****   while(fgets(line, sizeof(line), file))
+ 136              		.loc 1 31 0
+ 137 00c4 EB4B     		jmp	.L4	#
+ 138              	.L6:
+  32:m05p03.c      ****   {
+  33:m05p03.c      ****     if(strstr(line, "stack") != NULL)
+ 139              		.loc 1 33 0
+ 140 00c6 488D8500 		leaq	-256(%rbp), %rax	#, tmp112
+ 140      FFFFFF
+ 141 00cd BE000000 		movl	$.LC4, %esi	#,
+ 141      00
+ 142 00d2 4889C7   		movq	%rax, %rdi	# tmp112,
+ 143 00d5 E8000000 		call	strstr	#
+ 143      00
+ 144 00da 4885C0   		testq	%rax, %rax	# D.3128
+ 145 00dd 7432     		je	.L4	#,
+  34:m05p03.c      ****     {
+  35:m05p03.c      ****       //printf("stack : %s", line);
+  36:m05p03.c      ****       token_a=strtok(line, "-");
+ 146              		.loc 1 36 0
+ 147 00df 488D8500 		leaq	-256(%rbp), %rax	#, tmp113
+ 147      FFFFFF
+ 148 00e6 BE000000 		movl	$.LC5, %esi	#,
+ 148      00
+ 149 00eb 4889C7   		movq	%rax, %rdi	# tmp113,
+ 150 00ee E8000000 		call	strtok	#
+ 150      00
+ 151 00f3 48898590 		movq	%rax, -368(%rbp)	# tmp114, token_a
+ 151      FEFFFF
+  37:m05p03.c      ****       token_b=strtok(NULL, " ");
+ 152              		.loc 1 37 0
+ 153 00fa BE000000 		movl	$.LC6, %esi	#,
+ 153      00
+ 154 00ff BF000000 		movl	$0, %edi	#,
+ 154      00
+ 155 0104 E8000000 		call	strtok	#
+ 155      00
+ 156 0109 88857AFE 		movb	%al, -390(%rbp)	# D.3129, token_b
+ 156      FFFF
+  38:m05p03.c      ****       //printf("top:%s\n", token_b);
+  39:m05p03.c      ****       break;
+ 157              		.loc 1 39 0
+ 158 010f EB20     		jmp	.L5	#
+ 159              	.L4:
+  31:m05p03.c      ****   {
+ 160              		.loc 1 31 0
+ 161 0111 488B95A0 		movq	-352(%rbp), %rdx	# file, tmp115
+ 161      FEFFFF
+ 162 0118 488D8500 		leaq	-256(%rbp), %rax	#, tmp116
+ 162      FFFFFF
+ 163 011f BEF00000 		movl	$240, %esi	#,
+ 163      00
+ 164 0124 4889C7   		movq	%rax, %rdi	# tmp116,
+ 165 0127 E8000000 		call	fgets	#
+ 165      00
+ 166 012c 4885C0   		testq	%rax, %rax	# D.3128
+ 167 012f 7595     		jne	.L6	#,
+ 168              	.L5:
+  40:m05p03.c      ****     }
+  41:m05p03.c      ****   }
+  42:m05p03.c      **** 
+  43:m05p03.c      ****   unsigned long long * stackbase = (unsigned long long *) token_a;
+ 169              		.loc 1 43 0
+ 170 0131 488B8590 		movq	-368(%rbp), %rax	# token_a, tmp117
+ 170      FEFFFF
+ 171 0138 48898588 		movq	%rax, -376(%rbp)	# tmp117, stackbase
+ 171      FEFFFF
+  44:m05p03.c      ****   unsigned long long * stacktop = (unsigned long long *) token_b;
+ 172              		.loc 1 44 0
+ 173 013f 480FBE85 		movsbq	-390(%rbp), %rax	# token_b, D.3129
+ 173      7AFEFFFF 
+ 174 0147 488985A8 		movq	%rax, -344(%rbp)	# D.3129, stacktop
+ 174      FEFFFF
+  45:m05p03.c      ****   unsigned long long * current_stack = (unsigned long long *)get_stack();
+ 175              		.loc 1 45 0
+ 176 014e E8000000 		call	get_stack	#
+ 176      00
+ 177 0153 48898598 		movq	%rax, -360(%rbp)	# D.3130, current_stack
+ 177      FEFFFF
+  46:m05p03.c      **** 
+  47:m05p03.c      ****   //printf("top is %lx / base is %lx\n", stacktop, stackbase);
+  48:m05p03.c      ****   //printf("current stack : %lx\n", current_stack);
+  49:m05p03.c      ****   while(current_stack < (unsigned long long *)&stackbase)
+ 178              		.loc 1 49 0
+ 179 015a E9B00000 		jmp	.L7	#
+ 179      00
+ 180              	.L14:
+  50:m05p03.c      ****   {
+  51:m05p03.c      ****     printf("%14.14p: 0x%16.16llx\t", current_stack++ , *current_stack);
+ 181              		.loc 1 51 0
+ 182 015f 488B8598 		movq	-360(%rbp), %rax	# current_stack, tmp118
+ 182      FEFFFF
+ 183 0166 488B10   		movq	(%rax), %rdx	# *current_stack_3, D.3130
+ 184 0169 488B8598 		movq	-360(%rbp), %rax	# current_stack, D.3131
+ 184      FEFFFF
+ 185 0170 488D4808 		leaq	8(%rax), %rcx	#, tmp119
+ 186 0174 48898D98 		movq	%rcx, -360(%rbp)	# tmp119, current_stack
+ 186      FEFFFF
+ 187 017b 4889C6   		movq	%rax, %rsi	# D.3131,
+ 188 017e BF000000 		movl	$.LC7, %edi	#,
+ 188      00
+ 189 0183 B8000000 		movl	$0, %eax	#,
+ 189      00
+ 190 0188 E8000000 		call	printf	#
+ 190      00
+ 191              	.LBB2:
+  52:m05p03.c      ****     for(int j=0; j<=58; j+=8)
+ 192              		.loc 1 52 0
+ 193 018d C7857CFE 		movl	$0, -388(%rbp)	#, j
+ 193      FFFF0000 
+ 193      0000
+ 194 0197 EB63     		jmp	.L8	#
+ 195              	.L13:
+ 196              	.LBB3:
+  53:m05p03.c      **** 	  {
+  54:m05p03.c      **** 	    char character = (char)(*current_stack >> j & 0xff);
+ 197              		.loc 1 54 0
+ 198 0199 488B8598 		movq	-360(%rbp), %rax	# current_stack, tmp120
+ 198      FEFFFF
+ 199 01a0 488B10   		movq	(%rax), %rdx	# *current_stack_41, D.3130
+ 200 01a3 8B857CFE 		movl	-388(%rbp), %eax	# j, tmp121
+ 200      FFFF
+ 201 01a9 89C1     		movl	%eax, %ecx	# tmp121, tmp127
+ 202 01ab 48D3EA   		shrq	%cl, %rdx	# tmp127, D.3130
+ 203 01ae 4889D0   		movq	%rdx, %rax	# D.3130, D.3130
+ 204 01b1 88857BFE 		movb	%al, -389(%rbp)	# D.3130, character
+ 204      FFFF
+  55:m05p03.c      **** 	    if(character >= ' ' && character <= 'Z' || character >= 'a' && character <= 'z')
+ 205              		.loc 1 55 0
+ 206 01b7 80BD7BFE 		cmpb	$31, -389(%rbp)	#, character
+ 206      FFFF1F
+ 207 01be 7E09     		jle	.L9	#,
+ 208              		.loc 1 55 0 is_stmt 0 discriminator 1
+ 209 01c0 80BD7BFE 		cmpb	$90, -389(%rbp)	#, character
+ 209      FFFF5A
+ 210 01c7 7E12     		jle	.L10	#,
+ 211              	.L9:
+ 212              		.loc 1 55 0 discriminator 3
+ 213 01c9 80BD7BFE 		cmpb	$96, -389(%rbp)	#, character
+ 213      FFFF60
+ 214 01d0 7E19     		jle	.L11	#,
+ 215              		.loc 1 55 0 discriminator 4
+ 216 01d2 80BD7BFE 		cmpb	$122, -389(%rbp)	#, character
+ 216      FFFF7A
+ 217 01d9 7F10     		jg	.L11	#,
+ 218              	.L10:
+  56:m05p03.c      **** 	      printf("%c", character);
+ 219              		.loc 1 56 0 is_stmt 1
+ 220 01db 0FBE857B 		movsbl	-389(%rbp), %eax	# character, D.3132
+ 220      FEFFFF
+ 221 01e2 89C7     		movl	%eax, %edi	# D.3132,
+ 222 01e4 E8000000 		call	putchar	#
+ 222      00
+ 223 01e9 EB0A     		jmp	.L12	#
+ 224              	.L11:
+  57:m05p03.c      ****       else
+  58:m05p03.c      ****         printf(".");
+ 225              		.loc 1 58 0
+ 226 01eb BF2E0000 		movl	$46, %edi	#,
+ 226      00
+ 227 01f0 E8000000 		call	putchar	#
+ 227      00
+ 228              	.L12:
+ 229              	.LBE3:
+  52:m05p03.c      **** 	  {
+ 230              		.loc 1 52 0 discriminator 2
+ 231 01f5 83857CFE 		addl	$8, -388(%rbp)	#, j
+ 231      FFFF08
+ 232              	.L8:
+  52:m05p03.c      **** 	  {
+ 233              		.loc 1 52 0 is_stmt 0 discriminator 1
+ 234 01fc 83BD7CFE 		cmpl	$58, -388(%rbp)	#, j
+ 234      FFFF3A
+ 235 0203 7E94     		jle	.L13	#,
+ 236              	.LBE2:
+  59:m05p03.c      **** 	  }
+  60:m05p03.c      ****     printf("\n");
+ 237              		.loc 1 60 0 is_stmt 1
+ 238 0205 BF0A0000 		movl	$10, %edi	#,
+ 238      00
+ 239 020a E8000000 		call	putchar	#
+ 239      00
+ 240              	.L7:
+  49:m05p03.c      ****   {
+ 241              		.loc 1 49 0
+ 242 020f 488D8588 		leaq	-376(%rbp), %rax	#, tmp122
+ 242      FEFFFF
+ 243 0216 48398598 		cmpq	%rax, -360(%rbp)	# tmp122, current_stack
+ 243      FEFFFF
+ 244 021d 0F823CFF 		jb	.L14	#,
+ 244      FFFF
+  61:m05p03.c      ****   }
+  62:m05p03.c      **** 
+  63:m05p03.c      ****   return add;	 
+ 245              		.loc 1 63 0
+ 246 0223 8B8580FE 		movl	-384(%rbp), %eax	# add, D.3132
+ 246      FFFF
+  64:m05p03.c      **** }
+ 247              		.loc 1 64 0
+ 248 0229 488B4DF8 		movq	-8(%rbp), %rcx	# D.3133, tmp125
+ 249 022d 6448330C 		xorq	%fs:40, %rcx	#, tmp125
+ 249      25280000 
+ 249      00
+ 250 0236 7405     		je	.L16	#,
+ 251 0238 E8000000 		call	__stack_chk_fail	#
+ 251      00
+ 252              	.L16:
+ 253 023d C9       		leave
+ 254              		.cfi_def_cfa 7, 8
+ 255 023e C3       		ret
+ 256              		.cfi_endproc
+ 257              	.LFE1:
+ 259              		.section	.rodata
+ 260              	.LC8:
+ 261 0054 41646472 		.string	"Address of funtop: %p\n"
+ 261      65737320 
+ 261      6F662066 
+ 261      756E746F 
+ 261      703A2025 
+ 262              		.text
+ 263              		.globl	funtop
+ 265              	funtop:
+ 266              	.LFB2:
+  65:m05p03.c      **** 
+  66:m05p03.c      **** int funtop( int a, int b, char *str)
+  67:m05p03.c      **** {  
+ 267              		.loc 1 67 0
+ 268              		.cfi_startproc
+ 269 023f 55       		pushq	%rbp	#
+ 270              		.cfi_def_cfa_offset 16
+ 271              		.cfi_offset 6, -16
+ 272 0240 4889E5   		movq	%rsp, %rbp	#,
+ 273              		.cfi_def_cfa_register 6
+ 274 0243 4883EC20 		subq	$32, %rsp	#,
+ 275 0247 897DEC   		movl	%edi, -20(%rbp)	# a, a
+ 276 024a 8975E8   		movl	%esi, -24(%rbp)	# b, b
+ 277 024d 488955E0 		movq	%rdx, -32(%rbp)	# str, str
+  68:m05p03.c      ****   printf("Address of funtop: %p\n", funtop);
+ 278              		.loc 1 68 0
+ 279 0251 BE000000 		movl	$funtop, %esi	#,
+ 279      00
+ 280 0256 BF000000 		movl	$.LC8, %edi	#,
+ 280      00
+ 281 025b B8000000 		movl	$0, %eax	#,
+ 281      00
+ 282 0260 E8000000 		call	printf	#
+ 282      00
+  69:m05p03.c      ****   //printf("funtop1 a%d b%d\n", a,b);
+  70:m05p03.c      ****   a = a * 4;
+ 283              		.loc 1 70 0
+ 284 0265 C165EC02 		sall	$2, -20(%rbp)	#, a
+  71:m05p03.c      ****   b = b * 2;
+ 285              		.loc 1 71 0
+ 286 0269 D165E8   		sall	-24(%rbp)	# b
+  72:m05p03.c      ****   //printf("funtop2 a%d b%d\n", a,b);
+  73:m05p03.c      **** 
+  74:m05p03.c      ****   int value = funbot(a,b,str);
+ 287              		.loc 1 74 0
+ 288 026c 488B55E0 		movq	-32(%rbp), %rdx	# str, tmp89
+ 289 0270 8B4DE8   		movl	-24(%rbp), %ecx	# b, tmp90
+ 290 0273 8B45EC   		movl	-20(%rbp), %eax	# a, tmp91
+ 291 0276 89CE     		movl	%ecx, %esi	# tmp90,
+ 292 0278 89C7     		movl	%eax, %edi	# tmp91,
+ 293 027a E8000000 		call	funbot	#
+ 293      00
+ 294 027f 8945FC   		movl	%eax, -4(%rbp)	# tmp92, value
+  75:m05p03.c      ****   //printf("return is %d\n", value);
+  76:m05p03.c      ****   return value;
+ 295              		.loc 1 76 0
+ 296 0282 8B45FC   		movl	-4(%rbp), %eax	# value, D.3144
+  77:m05p03.c      **** }
+ 297              		.loc 1 77 0
+ 298 0285 C9       		leave
+ 299              		.cfi_def_cfa 7, 8
+ 300 0286 C3       		ret
+ 301              		.cfi_endproc
+ 302              	.LFE2:
+ 304              		.section	.rodata
+ 305              	.LC9:
+ 306 006b 41646472 		.string	"Address of main  : %p\n"
+ 306      65737320 
+ 306      6F66206D 
+ 306      61696E20 
+ 306      203A2025 
+ 307              	.LC10:
+ 308 0082 68616861 		.string	"haha"
+ 308      00
+ 309              		.text
+ 310              		.globl	main
+ 312              	main:
+ 313              	.LFB3:
+  78:m05p03.c      **** 
+  79:m05p03.c      **** int main (int argc, char **argv[])
+  80:m05p03.c      **** {
+ 314              		.loc 1 80 0
+ 315              		.cfi_startproc
+ 316 0287 55       		pushq	%rbp	#
+ 317              		.cfi_def_cfa_offset 16
+ 318              		.cfi_offset 6, -16
+ 319 0288 4889E5   		movq	%rsp, %rbp	#,
+ 320              		.cfi_def_cfa_register 6
+ 321 028b 4883EC10 		subq	$16, %rsp	#,
+ 322 028f 897DFC   		movl	%edi, -4(%rbp)	# argc, argc
+ 323 0292 488975F0 		movq	%rsi, -16(%rbp)	# argv, argv
+  81:m05p03.c      ****   printf("Address of main  : %p\n", main);
+ 324              		.loc 1 81 0
+ 325 0296 BE000000 		movl	$main, %esi	#,
+ 325      00
+ 326 029b BF000000 		movl	$.LC9, %edi	#,
+ 326      00
+ 327 02a0 B8000000 		movl	$0, %eax	#,
+ 327      00
+ 328 02a5 E8000000 		call	printf	#
+ 328      00
+  82:m05p03.c      ****   funtop(2, 2, "haha");
+ 329              		.loc 1 82 0
+ 330 02aa BA000000 		movl	$.LC10, %edx	#,
+ 330      00
+ 331 02af BE020000 		movl	$2, %esi	#,
+ 331      00
+ 332 02b4 BF020000 		movl	$2, %edi	#,
+ 332      00
+ 333 02b9 E8000000 		call	funtop	#
+ 333      00
+  83:m05p03.c      ****   return 0;
+ 334              		.loc 1 83 0
+ 335 02be B8000000 		movl	$0, %eax	#, D.3146
+ 335      00
+  84:m05p03.c      **** }
+ 336              		.loc 1 84 0
+ 337 02c3 C9       		leave
+ 338              		.cfi_def_cfa 7, 8
+ 339 02c4 C3       		ret
+ 340              		.cfi_endproc
+ 341              	.LFE3:
+ 343              	.Letext0:
+ 344              		.file 2 "/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h"
+ 345              		.file 3 "/usr/include/x86_64-linux-gnu/bits/types.h"
+ 346              		.file 4 "/usr/include/stdio.h"
+ 347              		.file 5 "/usr/include/libio.h"
