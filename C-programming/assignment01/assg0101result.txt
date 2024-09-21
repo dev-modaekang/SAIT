@@ -1,0 +1,71 @@
+Set up a Virtual Machine(Ubuntu 12.04.5)
+
+0. Download the Ubuntu ISO file on the Internet.
+   ex) search "Ubuntu 12.04 ISO file" on google.
+
+1. Open the VirtualBox.
+
+2. Click the 'New'
+
+3. (1) type the machine's name. (ex. assg0101)
+   (2) select Linux -  Ubuntu. (32-bit).
+
+4. Type 2048(2GB) for Memory size.
+
+5. Choose the default option: Create a virtual hard disk now.
+
+6. Select VDI(VirtualBox Disk Image).
+
+7. Select Dynamically allocated.
+
+8. Typle the '5GB'.
+
+9. Start the virtual machine you created.
+
+10. Select the Ubunt file you downloaded and start.
+
+11. Select 'English'.
+
+12. Select language: 'English'.
+
+13. Select timezon: 'United States'.
+
+14. Select Configure the keyboard: 'No'.
+
+15. Select the country of origin for the keyboard: 'ENglish (US)'.
+
+16. Select the matching the keyboard: 'English (US)'.
+
+17. Type the Hostname: 'ubuntu'.
+
+18. Type the user name. (ex) user
+
+19. Type user name you typed. (ex) user
+
+20. Typ the password for user. (ex)12345
+
+21. (option) If your password is weak, you need to select <YES>: usd the password or <No>: change the password.
+
+22. Select encrypt home directory: 'No'.
+
+23-1. Check the time zone. If your time zone is correct, select '<YES>'(go to 24) / If your time zone is not correct, select '<No>(go to 23-2).
+
+23-2. Select time zone: 'Mountain'.
+
+24. Select Partition disks: Guided-use entire disk.
+
+25. Select disk to partition: just 'Click'.
+
+26. In write the changes to the disks: Select '<yes>'.
+
+27. Http Proxy : just 'Continue'. (nothing type)
+
+28. Choose Upgrade option: 'No automatic update'.
+
+29. Software Selection: Press space in []OpenSSH(using space bar).
+
+30. GRUB boot loader: '<Yes>'.
+
+31. Finish the installation: just click '<continue>'.
+
+Done.
